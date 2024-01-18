@@ -1,0 +1,518 @@
+import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
+import store from "@/store";
+import JwtService from "@/core/services/JwtService";
+import { Actions } from "@/store/enums/StoreEnums";
+import { useI18n } from "vue-i18n";
+import langs from "@/core/config/langs";
+import { object, string } from "yup";
+import i18n from "@/core/plugins/i18n";
+
+const customer = (to, from, next) => {
+  if (JwtService.getToken() !== null && JwtService.isCustomer() === true) {
+    return next();
+  } else {
+    router.push({ name: "site-sign-in" });
+  }
+};
+const employee = (to, from, next) => {
+  if (JwtService.getToken() !== null && JwtService.isEmployee() === true) {
+    return next();
+  } else {
+    router.push({ name: "sign-in" , params:{locale:"en"} });
+  }
+};
+const routes: Array<RouteRecordRaw> = [
+  // site routes
+  {
+    path: "/:locale",
+    // redirect: "/site",
+    component: () => import("@/layout/site/indexLayout.vue"),
+    beforeEnter: () => {
+      store.dispatch(Actions.ADD_BODY_CLASSNAME, "page-loading");
+    },
+    children: [
+      {
+        path: "/:locale",
+        name: "site-index",
+        component: () => import("@/views/site/index/index.vue"),
+      },
+      {
+        path: "mobile",
+        name: "site-index-mob",
+        component: () => import("@/views/site/order/mob.vue"),
+      },
+    ],
+  },
+  {
+    path: "/:locale/tracking",
+    component: () => import("@/layout/site/Layout.vue"),
+    beforeEnter: () => {
+      store.dispatch(Actions.ADD_BODY_CLASSNAME, "page-loading");
+    },
+    children: [
+      {
+        path: ":code?",
+        name: "site-tracking",
+        component: () => import("@/views/site/index/tracking.vue"),
+      },
+    ],
+  },
+  {
+    path: "/:locale/contacts",
+    component: () => import("@/layout/site/Layout.vue"),
+    beforeEnter: () => {
+      store.dispatch(Actions.ADD_BODY_CLASSNAME, "page-loading");
+    },
+    children: [
+      {
+        path: "/:locale/contact",
+        name: "site-contact",
+        component: () => import("@/views/site/index/contact.vue"),
+      },
+    ],
+  },
+  {
+    path: "/:locale/blog",
+    component: () => import("@/layout/site/Layout.vue"),
+    beforeEnter: () => {
+      store.dispatch(Actions.ADD_BODY_CLASSNAME, "page-loading");
+    },
+    children: [
+      {
+        path: "/:locale/blog",
+        name: "site-blog",
+        component: () => import("@/views/site/blog/index.vue"),
+      },
+      {
+        path: "/:locale/blog/:id/:title?",
+        name: "site-blog-show",
+        component: () => import("@/views/site/blog/show.vue"),
+      },
+    ],
+  },
+  {
+    path: "/:locale",
+    component: () => import("@/layout/site/authLayout.vue"),
+    beforeEnter: () => {
+      store.dispatch(Actions.ADD_BODY_CLASSNAME, "page-loading");
+    },
+    children: [
+      {
+        path: "/:locale/sign-in",
+        name: "site-sign-in",
+        component: () => import("@/views/site/auth/SignIn.vue"),
+      },
+      {
+        path: "/:locale/sign-up",
+        name: "site-sign-up",
+        component: () => import("@/views/site/auth/SignUp.vue"),
+      },
+      {
+        path: "/:locale/rest-password",
+        name: "site-rest-password",
+        component: () => import("@/views/site/auth/PasswordReset.vue"),
+      },
+      {
+        path: "/:locale/phone-verify",
+        name: "site-verify-phone",
+        component: () => import("@/views/site/auth/phoneverify.vue"),
+      },
+      {
+        path: "/:locale/email-verify",
+        name: "site-verify-phone",
+        component: () => import("@/views/site/auth/phoneverify.vue"),
+      },
+    ],
+  },
+  {
+    path: "/:locale/custemer",
+    beforeEnter: [
+      () => {
+        store.dispatch(Actions.ADD_BODY_CLASSNAME, "page-loading");
+      },
+      customer,
+    ],
+    component: () => import("@/layout/site/Layout.vue"),
+    children: [
+      {
+        path: "/:locale/custemer",
+        name: "site-custemer",
+        component: () => import("@/views/site/custemer/index.vue"),
+      },
+      {
+        path: "/:locale/custemer/my/address",
+        name: "custemer-address",
+        component: () => import("@/views/site/custemer/address/list.vue"),
+      },
+      {
+        path: "/:locale/custemer/my/notifications",
+        name: "site-notifications-list",
+        component: () => import("@/views/notifications.vue"),
+      },
+      {
+        path: "/:locale/custemer/my/recivers",
+        name: "custemer-resivers",
+        component: () => import("@/views/site/custemer/resivers/list.vue"),
+      },
+      {
+        path: "/:locale/custemer/my/orders",
+        name: "custemer-orders",
+        component: () => import("@/views/site/custemer/orders/list.vue"),
+      },
+      {
+        path: "/:locale/custemer/my/setting",
+        name: "custemer-setting",
+        component: () => import("@/views/site/custemer/setting.vue"),
+      },
+    ],
+  },
+  {
+    path: "/:locale",
+    beforeEnter: () => {
+      store.dispatch(Actions.ADD_BODY_CLASSNAME, "page-loading");
+    },
+    component: () => import("@/layout/site/Layout.vue"),
+    children: [
+      {
+        path: "/:locale/:id",
+        name: "site-category",
+        component: () => import("@/views/site/blog/cat.vue"),
+      },
+    ],
+  },
+
+  // admin routes
+  {
+    path: "/:locale/dashboard",
+    component: () => import("@/layout/admin/Layout.vue"),
+    beforeEnter: employee,
+    children: [
+      {
+        path: "/:locale/dashboard",
+        name: "dashboard",
+        component: () => import("@/views/Dashboard.vue"),
+      },
+      {
+        path: "/:locale/admin/branches/list",
+        name: "branches-list",
+        component: () => import("@/views/admin/branches/list.vue"),
+      },
+      {
+        path: "/:locale/admin/roles/list",
+        name: "roles-list",
+        component: () => import("@/views/admin/manage/roles.vue"),
+      },
+      {
+        path: "/:locale/admin/users/list",
+        name: "users-list",
+        component: () => import("@/views/admin/users/list.vue"),
+      },
+      {
+        path: "/:locale/admin/users/:id/view",
+        name: "user-view",
+        component: () => import("@/views/admin/users/view.vue"),
+      },
+      {
+        path: "/:locale/admin/branches/:Id/view",
+        name: "branche-view",
+        component: () => import("@/views/admin/branches/view.vue"),
+      },
+      {
+        path: "/:locale/admin/Countries/list",
+        name: "Countries-list",
+        component: () => import("@/views/admin/Countries/list.vue"),
+      },
+      {
+        path: "/:locale/admin/Countries/:Id/view/:county?/:area?",
+        name: "Countries-show",
+        component: () => import("@/views/admin/Countries/countryView.vue"),
+      },
+      {
+        path: "/:locale/admin/Pyment-Methods/list",
+        name: "Pyment-Methods-list",
+        component: () => import("@/views/admin/settings/paymentMethods.vue"),
+      },
+      {
+        path: "/:locale/admin/Pyments/list",
+        name: "Pyments-list",
+        component: () => import("@/views/admin/payments/index.vue"),
+      },
+      {
+        path: "/:locale/admin/Currencies/list",
+        name: "Currencies-list",
+        component: () => import("@/views/admin/settings/currency.vue"),
+      },
+      {
+        path: "/:locale/admin/branches/:Id/view",
+        name: "service-view",
+        component: () => import("@/views/admin/branches/view.vue"),
+      },
+      {
+        path: "/:locale/admin/Services/list",
+        name: "Services-list",
+        component: () => import("@/views/admin/services/list.vue"),
+      },
+      {
+        path: "/:locale/admin/Services/prices/:Id",
+        name: "Services-prices-list",
+        component: () => import("@/views/admin/services/prices.vue"),
+      },
+      {
+        path: "/:locale/admin/Order-Types/list",
+        name: "Order-Types-list",
+        component: () => import("@/views/admin/settings/orderTyes.vue"),
+      },
+      {
+        path: "/:locale/admin/works/list",
+        name: "works-list",
+        component: () => import("@/views/admin/settings/works.vue"),
+      },
+      {
+        path: "/:locale/admin/Campany/Shipment/Types/list",
+        name: "shipment-types-list",
+        component: () => import("@/views/admin/settings/shipmentTypes.vue"),
+      },
+      {
+        path: "/:locale/admin/Shipment/Container/types/list",
+        name: "shipment-Container-types-list",
+        component: () => import("@/views/admin/settings/ShipmentContainer.vue"),
+      },
+      {
+        path: "/:locale/admin/Shipment/Container/list",
+        name: "shipment-Container-list",
+        component: () => import("@/views/admin/OrderShipment/list.vue"),
+      },
+      {
+        path: "/:locale/admin/Shipment/Container/view/:id?",
+        name: "shipment-Container-view",
+        component: () => import("@/views/admin/OrderShipment/view.vue"),
+      },
+
+      {
+        path: "/:locale/admin/Order-Status/list",
+        name: "Order-Status-list",
+        component: () => import("@/views/admin/settings/orderStatus.vue"),
+      },
+      {
+        path: "/:locale/admin/Orders/list",
+        name: "Orders-list",
+        component: () => import("@/views/admin/orders/index.vue"),
+      },
+      {
+        path: "/:locale/admin/discussion/list",
+        name: "discussion-list",
+        component: () => import("@/views/admin/chat/list.vue"),
+      },
+      {
+        path: "/:locale/admin/discussion/all/list",
+        name: "discussion-all-list",
+        component: () => import("@/views/admin/chat/listTable.vue"),
+      },
+      {
+        path: "/:locale/admin/discussion/types/list",
+        name: "discussion-types-list",
+        component: () => import("@/views/admin/settings/discussionTypes.vue"),
+      },
+      {
+        path: "/:locale/admin/discussion/suggested/messages/list",
+        name: "discussion-messages-list",
+        component: () => import("@/views/admin/settings/discussionSuggestedMessages.vue"),
+      },
+      {
+        path: "/:locale/admin/Orders/visitors/list",
+        name: "Orders-visitors-list",
+        component: () => import("@/views/admin/orders/listVisitors.vue"),
+      },
+
+      {
+        path: "/:locale/admin/Orders/:Id/view",
+        name: "order-view",
+        component: () => import("@/views/admin/orders/view.vue"),
+      },
+
+      {
+        path: "/:locale/admin/Orders/ScanCode",
+        name: "ScanCode-orders",
+        component: () => import("@/views/admin/orders/tracking.vue"),
+      },
+      {
+        path: "/:locale/admin/customers/list",
+        name: "customers-list",
+        component: () => import("@/views/admin/clients/list.vue"),
+      },
+      {
+        path: "/:locale/admin/customers/:id/view",
+        name: "customers-view",
+        component: () => import("@/views/admin/clients/view.vue"),
+      },
+
+      {
+        path: "/:locale/profile",
+        name: "emp-setting",
+        component: () => import("@/views/admin/emp/setting.vue"),
+      },
+
+      {
+        path: "/:locale/admin/my/notifications",
+        name: "notifications-list",
+        component: () => import("@/views/notifications.vue"),
+      },
+      {
+        path: "/:locale/admin/crm/Categories/list",
+        name: "crm-categories-list",
+        component: () => import("@/views/admin/blogs/categories.vue"),
+      },
+      {
+        path: "/:locale/admin/crm/blogs/list",
+        name: "crm-blogs-list",
+        component: () => import("@/views/admin/blogs/list.vue"),
+      },
+      {
+        path: "/:locale/admin/crm/meta/list",
+        name: "crm-meta-list",
+        component: () => import("@/views/admin/blogs/meta.vue"),
+      },
+      {
+        path: "/:locale/admin/crm/branch-data/list",
+        name: "crm-branch-data-list",
+        component: () => import("@/views/admin/branches/branchData.vue"),
+      },
+      {
+        path: "/:locale/admin/crm/contacts/list",
+        name: "crm-contacts-list",
+        component: () => import("@/views/admin/manage/contacts.vue"),
+      },
+      {
+        path: "/:locale/admin/site/setting",
+        name: "site-setting",
+        component: () => import("@/views/admin/settings/setting.vue"),
+      },
+    ],
+  },
+  {
+    path: "/:locale/dashboard",
+    component: () => import("@/layout/admin/AuthLayout.vue"),
+    children: [
+      {
+        path: "/:locale/dashboard/sign-in",
+        name: "sign-in",
+        component: () => import("@/views/admin/auth/SignIn.vue"),
+      },
+      {
+        path: "/:locale/dashboard/password-reset",
+        name: "password-reset",
+        component: () => import("@/views/admin/auth/PasswordReset.vue"),
+      },
+      {
+        path: "/:locale/dashboard/password-reset/:token",
+        name: "password-reset-email",
+        component: () => import("@/views/admin/auth/PasswordResetEmail.vue"),
+      },
+      // {
+      //   path: "/:locale/dashboard/password-reset/:token",
+      //   name: "password-reset-email",
+      //   component: () => import("@/views/admin/auth/PasswordResetEmail.vue"),
+      // }
+    ],
+  },
+
+  {
+    // the 404 route, when none of the above matches
+    path: "/:locale/404",
+    name: "404",
+    component: () => import("@/views/Error404.vue"),
+  },
+  // {
+  //   path: "/::pathMatch(.*)*",
+  //   redirect: "/404",
+  // },
+
+  {
+    path: "/",
+    redirect: () => {
+      let lang = "en";
+      navigator.languages.forEach((i) => {
+        if (langs[i] || langs[i.split("-").shift() as string]) {
+          lang = i.split("-").shift() as string;
+        }
+      });
+      const language = localStorage.getItem("lang") || lang;
+      return { name: "site-index", params: { locale: language } };
+    },
+  },
+];
+const history =
+  // createMemoryHistory();
+  createWebHistory();
+
+const router = createRouter({
+  // path: "/",
+  // 'base': "/:locale",
+  history: history,
+  routes: routes,
+});
+
+router.beforeEach((route) => {
+  if (localStorage.getItem("lang") != route.params.locale) {
+    if (langs[String(route.params.locale)]) {
+      localStorage.setItem("lang", route.params.locale.toString());
+      i18n.global.locale.value = route.params.locale.toString() as "ar";
+
+      if (localStorage.getItem("lang") == "ar")
+        store.dispatch(Actions.SET_RTL, "");
+      else store.dispatch(Actions.SET_LTR, "");
+    } else {
+      window.location.assign("/" + localStorage.getItem("lang") + "/404");
+    }
+  }
+  // useI18n().locale.value = String(route.params.locale);
+
+  // if (localStorage.getItem("lang")) {
+  //   useI18n().locale.value = localStorage.getItem("lang");
+  // } else {
+  //   console.log(navigator.languages);
+  //   navigator.languages.forEach((item) => {
+  //     if (item.indexOf("-") != -1) {
+  //       item = item.substring(0, item.indexOf("-") - 1);
+  //     }
+  //     if (langs[item]) {
+  //       lang = item;
+  //       return;
+  //     }
+  //   });
+  //   useI18n().locale.value = lang;
+  //   localStorage.setItem("lang", lang);
+  // }
+  // let language = customer.params.locale || "";
+  // console.log(to.params);
+
+  // i18n.locale = language;
+
+  // useI18n().locale.value = String(language)
+
+  // localStorage.setItem("lang", lang);
+  // useI18n().locale = language;
+  // i18n.locale = language
+  //
+  // useI18n().locale.value = language;
+  // next();
+
+  // store.dispatch(Actions.ADD_BODY_CLASSNAME, "page-loading");
+  // reset config to initial state
+  // store.commit(Mutations.RESET_LAYOUT_CONFIG);
+
+  store.dispatch(Actions.VERIFY_AUTH);
+  // BodyModule
+  // store.dispatch(Actions.ADD_BODY_CLASSNAME, "page-loading");
+
+  // Scroll page to top on every route change
+  setTimeout(() => {
+    window.scrollTo(0, 0);
+  }, 100);
+});
+router.afterEach(() => {
+  setTimeout(() => {
+    store.dispatch(Actions.REMOVE_BODY_CLASSNAME, "page-loading");
+  }, 300);
+});
+export default router;

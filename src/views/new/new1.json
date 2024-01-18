@@ -1,0 +1,4343 @@
+{
+  "total_orders": {
+    "total": 36,
+    "data": {
+      "2": "1",
+      "4": "1",
+      "7": "3",
+      "13": "1",
+      "14": "8",
+      "15": "2",
+      "16": "3",
+      "17": "13",
+      "20": "1",
+      "21": "3",
+      "22": "4"
+    }
+  },
+  "total_shipment": {
+    "total": 28,
+    "data": {
+      "6": "28"
+    }
+  },
+  "total_customers": {
+    "total": 181,
+    "data": [
+      {
+        "name": "\u0627\u064a\u0647\u0645 \u0627\u0644\u0641\u0627\u0631\u0633",
+        "id": 2337,
+        "works": [
+          {
+            "id": 3,
+            "name": {
+              "en": "Furniture",
+              "ar": "\u0645\u0641\u0631\u0648\u0634\u0627\u062a",
+              "tr": "Mobilya"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-05-17T12:02:50.000000Z",
+            "created_at": "2022-02-01T08:44:25.000000Z",
+            "pivot": {
+              "customer_id": "2337",
+              "work_id": "3"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0632\u0643\u0648\u0631 \u0627\u0628\u0648 \u0627\u062d\u0645\u062f",
+        "id": 2336,
+        "works": [
+          {
+            "id": 3,
+            "name": {
+              "en": "Furniture",
+              "ar": "\u0645\u0641\u0631\u0648\u0634\u0627\u062a",
+              "tr": "Mobilya"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-05-17T12:02:50.000000Z",
+            "created_at": "2022-02-01T08:44:25.000000Z",
+            "pivot": {
+              "customer_id": "2336",
+              "work_id": "3"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0639\u0645\u0631 \u0627\u0644\u0639\u0627\u0628\u062f",
+        "id": 2335,
+        "works": [
+          {
+            "id": 3,
+            "name": {
+              "en": "Furniture",
+              "ar": "\u0645\u0641\u0631\u0648\u0634\u0627\u062a",
+              "tr": "Mobilya"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-05-17T12:02:50.000000Z",
+            "created_at": "2022-02-01T08:44:25.000000Z",
+            "pivot": {
+              "customer_id": "2335",
+              "work_id": "3"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0641\u0631\u0627\u0633 \u0627\u0644\u0628\u0638",
+        "id": 2334,
+        "works": [
+          {
+            "id": 3,
+            "name": {
+              "en": "Furniture",
+              "ar": "\u0645\u0641\u0631\u0648\u0634\u0627\u062a",
+              "tr": "Mobilya"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-05-17T12:02:50.000000Z",
+            "created_at": "2022-02-01T08:44:25.000000Z",
+            "pivot": {
+              "customer_id": "2334",
+              "work_id": "3"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0627\u0628\u0648 \u0627\u0644\u0646\u0648\u0631 \u0645\u0635\u0631\u064a",
+        "id": 2333,
+        "works": [
+          {
+            "id": 3,
+            "name": {
+              "en": "Furniture",
+              "ar": "\u0645\u0641\u0631\u0648\u0634\u0627\u062a",
+              "tr": "Mobilya"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-05-17T12:02:50.000000Z",
+            "created_at": "2022-02-01T08:44:25.000000Z",
+            "pivot": {
+              "customer_id": "2333",
+              "work_id": "3"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0641\u0627\u062f\u064a \u0631\u0646\u0643\u0648\u0633\u064a",
+        "id": 2332,
+        "works": [
+          {
+            "id": 3,
+            "name": {
+              "en": "Furniture",
+              "ar": "\u0645\u0641\u0631\u0648\u0634\u0627\u062a",
+              "tr": "Mobilya"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-05-17T12:02:50.000000Z",
+            "created_at": "2022-02-01T08:44:25.000000Z",
+            "pivot": {
+              "customer_id": "2332",
+              "work_id": "3"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0627\u0628\u0648 \u0641\u0627\u0631\u0633 \u0627\u0644\u0642\u0635\u0627\u0628",
+        "id": 2331,
+        "works": [
+          {
+            "id": 3,
+            "name": {
+              "en": "Furniture",
+              "ar": "\u0645\u0641\u0631\u0648\u0634\u0627\u062a",
+              "tr": "Mobilya"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-05-17T12:02:50.000000Z",
+            "created_at": "2022-02-01T08:44:25.000000Z",
+            "pivot": {
+              "customer_id": "2331",
+              "work_id": "3"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0645\u062d\u0645\u062f \u062d\u0646\u0627\u0648\u064a",
+        "id": 2330,
+        "works": [
+          {
+            "id": 3,
+            "name": {
+              "en": "Furniture",
+              "ar": "\u0645\u0641\u0631\u0648\u0634\u0627\u062a",
+              "tr": "Mobilya"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-05-17T12:02:50.000000Z",
+            "created_at": "2022-02-01T08:44:25.000000Z",
+            "pivot": {
+              "customer_id": "2330",
+              "work_id": "3"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u062c\u0648\u062f \u0645\u0631\u0634\u0648",
+        "id": 2329,
+        "works": [
+          {
+            "id": 3,
+            "name": {
+              "en": "Furniture",
+              "ar": "\u0645\u0641\u0631\u0648\u0634\u0627\u062a",
+              "tr": "Mobilya"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-05-17T12:02:50.000000Z",
+            "created_at": "2022-02-01T08:44:25.000000Z",
+            "pivot": {
+              "customer_id": "2329",
+              "work_id": "3"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0639\u0645\u0627\u0631 \u0645\u0642\u0631\u0634",
+        "id": 2328,
+        "works": [
+          {
+            "id": 3,
+            "name": {
+              "en": "Furniture",
+              "ar": "\u0645\u0641\u0631\u0648\u0634\u0627\u062a",
+              "tr": "Mobilya"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-05-17T12:02:50.000000Z",
+            "created_at": "2022-02-01T08:44:25.000000Z",
+            "pivot": {
+              "customer_id": "2328",
+              "work_id": "3"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0627\u0628\u0648 \u0639\u0645\u0627\u0631 \u0634\u0627\u0648\u064a\u0634",
+        "id": 2327,
+        "works": [
+          {
+            "id": 3,
+            "name": {
+              "en": "Furniture",
+              "ar": "\u0645\u0641\u0631\u0648\u0634\u0627\u062a",
+              "tr": "Mobilya"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-05-17T12:02:50.000000Z",
+            "created_at": "2022-02-01T08:44:25.000000Z",
+            "pivot": {
+              "customer_id": "2327",
+              "work_id": "3"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0645\u062d\u0645\u062f \u062d\u0646\u0627\u0646",
+        "id": 2326,
+        "works": [
+          {
+            "id": 3,
+            "name": {
+              "en": "Furniture",
+              "ar": "\u0645\u0641\u0631\u0648\u0634\u0627\u062a",
+              "tr": "Mobilya"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-05-17T12:02:50.000000Z",
+            "created_at": "2022-02-01T08:44:25.000000Z",
+            "pivot": {
+              "customer_id": "2326",
+              "work_id": "3"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0627\u0628\u0648 \u0639\u062f\u0646\u0627\u0646 \u0627\u0644\u062d\u0645\u0648\u064a",
+        "id": 2325,
+        "works": [
+          {
+            "id": 3,
+            "name": {
+              "en": "Furniture",
+              "ar": "\u0645\u0641\u0631\u0648\u0634\u0627\u062a",
+              "tr": "Mobilya"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-05-17T12:02:50.000000Z",
+            "created_at": "2022-02-01T08:44:25.000000Z",
+            "pivot": {
+              "customer_id": "2325",
+              "work_id": "3"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0648\u0644\u064a\u062f",
+        "id": 2324,
+        "works": [
+          {
+            "id": 3,
+            "name": {
+              "en": "Furniture",
+              "ar": "\u0645\u0641\u0631\u0648\u0634\u0627\u062a",
+              "tr": "Mobilya"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-05-17T12:02:50.000000Z",
+            "created_at": "2022-02-01T08:44:25.000000Z",
+            "pivot": {
+              "customer_id": "2324",
+              "work_id": "3"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0627\u0628\u0648 \u0639\u0644\u064a \u0648\u064a\u0648\u064a",
+        "id": 2323,
+        "works": [
+          {
+            "id": 3,
+            "name": {
+              "en": "Furniture",
+              "ar": "\u0645\u0641\u0631\u0648\u0634\u0627\u062a",
+              "tr": "Mobilya"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-05-17T12:02:50.000000Z",
+            "created_at": "2022-02-01T08:44:25.000000Z",
+            "pivot": {
+              "customer_id": "2323",
+              "work_id": "3"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u062e\u064a\u0631\u0648",
+        "id": 2322,
+        "works": [
+          {
+            "id": 3,
+            "name": {
+              "en": "Furniture",
+              "ar": "\u0645\u0641\u0631\u0648\u0634\u0627\u062a",
+              "tr": "Mobilya"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-05-17T12:02:50.000000Z",
+            "created_at": "2022-02-01T08:44:25.000000Z",
+            "pivot": {
+              "customer_id": "2322",
+              "work_id": "3"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Farhan Almohamad",
+        "id": 2321,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Turki Elfarhan",
+        "id": 2320,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Ziyad Molhm",
+        "id": 2319,
+        "works": [
+          {
+            "id": 11,
+            "name": {
+              "en": "Detergents",
+              "tr": "Temizleyici",
+              "ar": "\u0645\u0646\u0638\u0641\u0627\u062a"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-02T13:51:19.000000Z",
+            "created_at": "2022-02-02T13:50:18.000000Z",
+            "pivot": {
+              "customer_id": "2319",
+              "work_id": "11"
+            }
+          },
+          {
+            "id": 20,
+            "name": {
+              "ar": "\u0635\u0627\u0628\u0648\u0646"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-05-17T12:04:54.000000Z",
+            "created_at": "2022-05-17T12:04:54.000000Z",
+            "pivot": {
+              "customer_id": "2319",
+              "work_id": "20"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [
+          {
+            "id": 13,
+            "iso_code": "AT",
+            "phone_code": "+43",
+            "status": "1",
+            "created_at": "2022-01-04T15:49:40.000000Z",
+            "updated_at": "2022-04-10T12:37:34.000000Z",
+            "deleted_at": null,
+            "name": {
+              "en": "Austria"
+            },
+            "pivot": {
+              "customer_id": "2319",
+              "country_id": "13"
+            }
+          }
+        ],
+        "shipment_type": null
+      },
+      {
+        "name": "Mahmoud Kitou",
+        "id": 2318,
+        "works": [
+          {
+            "id": 20,
+            "name": {
+              "ar": "\u0635\u0627\u0628\u0648\u0646"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-05-17T12:04:54.000000Z",
+            "created_at": "2022-05-17T12:04:54.000000Z",
+            "pivot": {
+              "customer_id": "2318",
+              "work_id": "20"
+            }
+          },
+          {
+            "id": 11,
+            "name": {
+              "en": "Detergents",
+              "tr": "Temizleyici",
+              "ar": "\u0645\u0646\u0638\u0641\u0627\u062a"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-02T13:51:19.000000Z",
+            "created_at": "2022-02-02T13:50:18.000000Z",
+            "pivot": {
+              "customer_id": "2318",
+              "work_id": "11"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [
+          {
+            "id": 181,
+            "iso_code": "TR",
+            "phone_code": "+90",
+            "status": "1",
+            "created_at": "2022-01-04T15:49:40.000000Z",
+            "updated_at": "2022-04-10T12:37:34.000000Z",
+            "deleted_at": null,
+            "name": {
+              "en": "Turkey"
+            },
+            "pivot": {
+              "customer_id": "2318",
+              "country_id": "181"
+            }
+          },
+          {
+            "id": 71,
+            "iso_code": "DE",
+            "phone_code": "+49",
+            "status": "1",
+            "created_at": "2022-01-04T15:49:40.000000Z",
+            "updated_at": "2022-04-10T12:37:34.000000Z",
+            "deleted_at": null,
+            "name": {
+              "en": "Germany"
+            },
+            "pivot": {
+              "customer_id": "2318",
+              "country_id": "71"
+            }
+          },
+          {
+            "id": 13,
+            "iso_code": "AT",
+            "phone_code": "+43",
+            "status": "1",
+            "created_at": "2022-01-04T15:49:40.000000Z",
+            "updated_at": "2022-04-10T12:37:34.000000Z",
+            "deleted_at": null,
+            "name": {
+              "en": "Austria"
+            },
+            "pivot": {
+              "customer_id": "2318",
+              "country_id": "13"
+            }
+          }
+        ],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0645\u062c\u064a\u062f \u0628\u0648\u0641\u0644\u062c\u0627\u062a",
+        "id": 2317,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0631\u0636\u0627 \u0627\u0644\u062e\u0636\u0631\u064a",
+        "id": 2316,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0627\u0628\u0648 \u0627\u0628\u0631\u0627\u0647\u064a\u0645 \u0627\u0644\u0639\u0635\u0641\u0648\u0631",
+        "id": 2315,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0639\u0628\u062f\u0627\u0644\u0631\u062d\u0645\u0646 \u0635\u0628\u0627\u063a",
+        "id": 2314,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0645\u062c\u0627\u0647\u062f \u0645\u0635\u0631\u064a",
+        "id": 2313,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0627\u0628\u0648 \u0641\u064a\u0635\u0644 \u0645\u0639\u0627\u0632",
+        "id": 2312,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0645\u062d\u0645\u062f \u062c\u062d\u062a\u0648",
+        "id": 2311,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0627\u0628\u0648 \u062d\u0633\u064a\u0646 \u0627\u0644\u0628\u0637\u0648\u0634\u064a",
+        "id": 2310,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0646\u0636\u0627\u0644 \u0627\u0644\u0645\u0637\u0631",
+        "id": 2309,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0641\u0631\u0627\u0633 \u0627\u0644\u0645\u0637\u0631",
+        "id": 2308,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Mohammed Al Gnawi",
+        "id": 2307,
+        "works": [
+          {
+            "id": 12,
+            "name": {
+              "en": "Glassware",
+              "ar": "\u0627\u0644\u0627\u0648\u0627\u0646\u0649 \u0627\u0644\u0632\u062c\u0627\u062c\u064a\u0629"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-23T20:44:08.000000Z",
+            "created_at": "2022-02-02T13:52:32.000000Z",
+            "pivot": {
+              "customer_id": "2307",
+              "work_id": "12"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [
+          {
+            "id": 181,
+            "iso_code": "TR",
+            "phone_code": "+90",
+            "status": "1",
+            "created_at": "2022-01-04T15:49:40.000000Z",
+            "updated_at": "2022-04-10T12:37:34.000000Z",
+            "deleted_at": null,
+            "name": {
+              "en": "Turkey"
+            },
+            "pivot": {
+              "customer_id": "2307",
+              "country_id": "181"
+            }
+          }
+        ],
+        "shipment_type": null
+      },
+      {
+        "name": "Samer Andaleb",
+        "id": 2306,
+        "works": [
+          {
+            "id": 3,
+            "name": {
+              "en": "Furniture",
+              "ar": "\u0645\u0641\u0631\u0648\u0634\u0627\u062a",
+              "tr": "Mobilya"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-05-17T12:02:50.000000Z",
+            "created_at": "2022-02-01T08:44:25.000000Z",
+            "pivot": {
+              "customer_id": "2306",
+              "work_id": "3"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [
+          {
+            "id": 181,
+            "iso_code": "TR",
+            "phone_code": "+90",
+            "status": "1",
+            "created_at": "2022-01-04T15:49:40.000000Z",
+            "updated_at": "2022-04-10T12:37:34.000000Z",
+            "deleted_at": null,
+            "name": {
+              "en": "Turkey"
+            },
+            "pivot": {
+              "customer_id": "2306",
+              "country_id": "181"
+            }
+          }
+        ],
+        "shipment_type": null
+      },
+      {
+        "name": "Hamid Barakat",
+        "id": 2305,
+        "works": [
+          {
+            "id": 3,
+            "name": {
+              "en": "Furniture",
+              "ar": "\u0645\u0641\u0631\u0648\u0634\u0627\u062a",
+              "tr": "Mobilya"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-05-17T12:02:50.000000Z",
+            "created_at": "2022-02-01T08:44:25.000000Z",
+            "pivot": {
+              "customer_id": "2305",
+              "work_id": "3"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [
+          {
+            "id": 181,
+            "iso_code": "TR",
+            "phone_code": "+90",
+            "status": "1",
+            "created_at": "2022-01-04T15:49:40.000000Z",
+            "updated_at": "2022-04-10T12:37:34.000000Z",
+            "deleted_at": null,
+            "name": {
+              "en": "Turkey"
+            },
+            "pivot": {
+              "customer_id": "2305",
+              "country_id": "181"
+            }
+          }
+        ],
+        "shipment_type": null
+      },
+      {
+        "name": "Hassan Hassani",
+        "id": 2304,
+        "works": [
+          {
+            "id": 3,
+            "name": {
+              "en": "Furniture",
+              "ar": "\u0645\u0641\u0631\u0648\u0634\u0627\u062a",
+              "tr": "Mobilya"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-05-17T12:02:50.000000Z",
+            "created_at": "2022-02-01T08:44:25.000000Z",
+            "pivot": {
+              "customer_id": "2304",
+              "work_id": "3"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [
+          {
+            "id": 181,
+            "iso_code": "TR",
+            "phone_code": "+90",
+            "status": "1",
+            "created_at": "2022-01-04T15:49:40.000000Z",
+            "updated_at": "2022-04-10T12:37:34.000000Z",
+            "deleted_at": null,
+            "name": {
+              "en": "Turkey"
+            },
+            "pivot": {
+              "customer_id": "2304",
+              "country_id": "181"
+            }
+          }
+        ],
+        "shipment_type": null
+      },
+      {
+        "name": "Mohammed Sajari",
+        "id": 2303,
+        "works": [
+          {
+            "id": 3,
+            "name": {
+              "en": "Furniture",
+              "ar": "\u0645\u0641\u0631\u0648\u0634\u0627\u062a",
+              "tr": "Mobilya"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-05-17T12:02:50.000000Z",
+            "created_at": "2022-02-01T08:44:25.000000Z",
+            "pivot": {
+              "customer_id": "2303",
+              "work_id": "3"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [
+          {
+            "id": 181,
+            "iso_code": "TR",
+            "phone_code": "+90",
+            "status": "1",
+            "created_at": "2022-01-04T15:49:40.000000Z",
+            "updated_at": "2022-04-10T12:37:34.000000Z",
+            "deleted_at": null,
+            "name": {
+              "en": "Turkey"
+            },
+            "pivot": {
+              "customer_id": "2303",
+              "country_id": "181"
+            }
+          }
+        ],
+        "shipment_type": null
+      },
+      {
+        "name": "Salah Tahhan",
+        "id": 2302,
+        "works": [
+          {
+            "id": 15,
+            "name": {
+              "ar": "\u0645\u0639\u062f\u0627\u062a"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-05-17T12:02:26.000000Z",
+            "created_at": "2022-05-17T12:02:26.000000Z",
+            "pivot": {
+              "customer_id": "2302",
+              "work_id": "15"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [
+          {
+            "id": 71,
+            "iso_code": "DE",
+            "phone_code": "+49",
+            "status": "1",
+            "created_at": "2022-01-04T15:49:40.000000Z",
+            "updated_at": "2022-04-10T12:37:34.000000Z",
+            "deleted_at": null,
+            "name": {
+              "en": "Germany"
+            },
+            "pivot": {
+              "customer_id": "2302",
+              "country_id": "71"
+            }
+          },
+          {
+            "id": 181,
+            "iso_code": "TR",
+            "phone_code": "+90",
+            "status": "1",
+            "created_at": "2022-01-04T15:49:40.000000Z",
+            "updated_at": "2022-04-10T12:37:34.000000Z",
+            "deleted_at": null,
+            "name": {
+              "en": "Turkey"
+            },
+            "pivot": {
+              "customer_id": "2302",
+              "country_id": "181"
+            }
+          }
+        ],
+        "shipment_type": null
+      },
+      {
+        "name": "Samer Al-Hassan",
+        "id": 2301,
+        "works": [
+          {
+            "id": 12,
+            "name": {
+              "en": "Glassware",
+              "ar": "\u0627\u0644\u0627\u0648\u0627\u0646\u0649 \u0627\u0644\u0632\u062c\u0627\u062c\u064a\u0629"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-23T20:44:08.000000Z",
+            "created_at": "2022-02-02T13:52:32.000000Z",
+            "pivot": {
+              "customer_id": "2301",
+              "work_id": "12"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [
+          {
+            "id": 181,
+            "iso_code": "TR",
+            "phone_code": "+90",
+            "status": "1",
+            "created_at": "2022-01-04T15:49:40.000000Z",
+            "updated_at": "2022-04-10T12:37:34.000000Z",
+            "deleted_at": null,
+            "name": {
+              "en": "Turkey"
+            },
+            "pivot": {
+              "customer_id": "2301",
+              "country_id": "181"
+            }
+          }
+        ],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0627\u0628\u0648 \u0631\u0634\u064a\u062f \u0628\u0648\u062f\u0642\u0629",
+        "id": 2300,
+        "works": [
+          {
+            "id": 8,
+            "name": {
+              "en": "Foodstuffs",
+              "ar": "\u0645\u0648\u0627\u062f \u063a\u0630\u0627\u0626\u064a\u0629",
+              "tr": "G\u0131da maddeleri"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-02T13:44:59.000000Z",
+            "created_at": "2022-02-02T13:42:44.000000Z",
+            "pivot": {
+              "customer_id": "2300",
+              "work_id": "8"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0637\u0627\u0631\u0642 \u062c\u0648\u062f\u064a",
+        "id": 2299,
+        "works": [
+          {
+            "id": 8,
+            "name": {
+              "en": "Foodstuffs",
+              "ar": "\u0645\u0648\u0627\u062f \u063a\u0630\u0627\u0626\u064a\u0629",
+              "tr": "G\u0131da maddeleri"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-02T13:44:59.000000Z",
+            "created_at": "2022-02-02T13:42:44.000000Z",
+            "pivot": {
+              "customer_id": "2299",
+              "work_id": "8"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0627\u0628\u0648 \u0641\u0627\u0636\u0644 \u0644\u0637\u0648\u0641",
+        "id": 2298,
+        "works": [
+          {
+            "id": 8,
+            "name": {
+              "en": "Foodstuffs",
+              "ar": "\u0645\u0648\u0627\u062f \u063a\u0630\u0627\u0626\u064a\u0629",
+              "tr": "G\u0131da maddeleri"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-02T13:44:59.000000Z",
+            "created_at": "2022-02-02T13:42:44.000000Z",
+            "pivot": {
+              "customer_id": "2298",
+              "work_id": "8"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0639\u0645\u0631 \u0627\u0648\u0634\u0627\u0631",
+        "id": 2297,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0639\u0644\u0627\u0621",
+        "id": 2296,
+        "works": [
+          {
+            "id": 9,
+            "name": {
+              "en": "Coal",
+              "ar": "\u0641\u062d\u0645",
+              "tr": "K\u00f6m\u00fcr"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-02T13:44:30.000000Z",
+            "created_at": "2022-02-02T13:43:55.000000Z",
+            "pivot": {
+              "customer_id": "2296",
+              "work_id": "9"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0637\u0627\u0631\u0642 \u0633\u0644\u0637\u0627\u0646",
+        "id": 2295,
+        "works": [
+          {
+            "id": 8,
+            "name": {
+              "en": "Foodstuffs",
+              "ar": "\u0645\u0648\u0627\u062f \u063a\u0630\u0627\u0626\u064a\u0629",
+              "tr": "G\u0131da maddeleri"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-02T13:44:59.000000Z",
+            "created_at": "2022-02-02T13:42:44.000000Z",
+            "pivot": {
+              "customer_id": "2295",
+              "work_id": "8"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0623\u062d\u0645\u062f \u0634\u062a\u0627\u062a",
+        "id": 2294,
+        "works": [
+          {
+            "id": 8,
+            "name": {
+              "en": "Foodstuffs",
+              "ar": "\u0645\u0648\u0627\u062f \u063a\u0630\u0627\u0626\u064a\u0629",
+              "tr": "G\u0131da maddeleri"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-02T13:44:59.000000Z",
+            "created_at": "2022-02-02T13:42:44.000000Z",
+            "pivot": {
+              "customer_id": "2294",
+              "work_id": "8"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u062d\u0633\u064a\u0646 \u0635\u0628\u0627\u063a",
+        "id": 2293,
+        "works": [
+          {
+            "id": 8,
+            "name": {
+              "en": "Foodstuffs",
+              "ar": "\u0645\u0648\u0627\u062f \u063a\u0630\u0627\u0626\u064a\u0629",
+              "tr": "G\u0131da maddeleri"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-02T13:44:59.000000Z",
+            "created_at": "2022-02-02T13:42:44.000000Z",
+            "pivot": {
+              "customer_id": "2293",
+              "work_id": "8"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0643\u0646\u0627\u0646 \u0627\u0644\u0645\u062d\u0628\u0643",
+        "id": 2292,
+        "works": [
+          {
+            "id": 8,
+            "name": {
+              "en": "Foodstuffs",
+              "ar": "\u0645\u0648\u0627\u062f \u063a\u0630\u0627\u0626\u064a\u0629",
+              "tr": "G\u0131da maddeleri"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-02T13:44:59.000000Z",
+            "created_at": "2022-02-02T13:42:44.000000Z",
+            "pivot": {
+              "customer_id": "2292",
+              "work_id": "8"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0627\u0628\u0648 \u0627\u0644\u0628\u0631\u0627\u0621 \u0627\u0644\u0627\u062f\u064a\u0628",
+        "id": 2291,
+        "works": [
+          {
+            "id": 8,
+            "name": {
+              "en": "Foodstuffs",
+              "ar": "\u0645\u0648\u0627\u062f \u063a\u0630\u0627\u0626\u064a\u0629",
+              "tr": "G\u0131da maddeleri"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-02T13:44:59.000000Z",
+            "created_at": "2022-02-02T13:42:44.000000Z",
+            "pivot": {
+              "customer_id": "2291",
+              "work_id": "8"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0623\u062d\u0645\u062f \u0632\u063a\u0644",
+        "id": 2290,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0627\u0646\u0633",
+        "id": 2289,
+        "works": [
+          {
+            "id": 8,
+            "name": {
+              "en": "Foodstuffs",
+              "ar": "\u0645\u0648\u0627\u062f \u063a\u0630\u0627\u0626\u064a\u0629",
+              "tr": "G\u0131da maddeleri"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-02T13:44:59.000000Z",
+            "created_at": "2022-02-02T13:42:44.000000Z",
+            "pivot": {
+              "customer_id": "2289",
+              "work_id": "8"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Bilal Mabrucka",
+        "id": 2288,
+        "works": [
+          {
+            "id": 8,
+            "name": {
+              "en": "Foodstuffs",
+              "ar": "\u0645\u0648\u0627\u062f \u063a\u0630\u0627\u0626\u064a\u0629",
+              "tr": "G\u0131da maddeleri"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-02T13:44:59.000000Z",
+            "created_at": "2022-02-02T13:42:44.000000Z",
+            "pivot": {
+              "customer_id": "2288",
+              "work_id": "8"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [
+          {
+            "id": 71,
+            "iso_code": "DE",
+            "phone_code": "+49",
+            "status": "1",
+            "created_at": "2022-01-04T15:49:40.000000Z",
+            "updated_at": "2022-04-10T12:37:34.000000Z",
+            "deleted_at": null,
+            "name": {
+              "en": "Germany"
+            },
+            "pivot": {
+              "customer_id": "2288",
+              "country_id": "71"
+            }
+          }
+        ],
+        "shipment_type": null
+      },
+      {
+        "name": "Ayamn Rajeh",
+        "id": 2287,
+        "works": [
+          {
+            "id": 8,
+            "name": {
+              "en": "Foodstuffs",
+              "ar": "\u0645\u0648\u0627\u062f \u063a\u0630\u0627\u0626\u064a\u0629",
+              "tr": "G\u0131da maddeleri"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-02T13:44:59.000000Z",
+            "created_at": "2022-02-02T13:42:44.000000Z",
+            "pivot": {
+              "customer_id": "2287",
+              "work_id": "8"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [
+          {
+            "id": 181,
+            "iso_code": "TR",
+            "phone_code": "+90",
+            "status": "1",
+            "created_at": "2022-01-04T15:49:40.000000Z",
+            "updated_at": "2022-04-10T12:37:34.000000Z",
+            "deleted_at": null,
+            "name": {
+              "en": "Turkey"
+            },
+            "pivot": {
+              "customer_id": "2287",
+              "country_id": "181"
+            }
+          }
+        ],
+        "shipment_type": null
+      },
+      {
+        "name": "Omar Soufi",
+        "id": 2286,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Mohamed Bal",
+        "id": 2285,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Imad Aldin Shbib",
+        "id": 2284,
+        "works": [
+          {
+            "id": 8,
+            "name": {
+              "en": "Foodstuffs",
+              "ar": "\u0645\u0648\u0627\u062f \u063a\u0630\u0627\u0626\u064a\u0629",
+              "tr": "G\u0131da maddeleri"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-02T13:44:59.000000Z",
+            "created_at": "2022-02-02T13:42:44.000000Z",
+            "pivot": {
+              "customer_id": "2284",
+              "work_id": "8"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [
+          {
+            "id": 181,
+            "iso_code": "TR",
+            "phone_code": "+90",
+            "status": "1",
+            "created_at": "2022-01-04T15:49:40.000000Z",
+            "updated_at": "2022-04-10T12:37:34.000000Z",
+            "deleted_at": null,
+            "name": {
+              "en": "Turkey"
+            },
+            "pivot": {
+              "customer_id": "2284",
+              "country_id": "181"
+            }
+          }
+        ],
+        "shipment_type": null
+      },
+      {
+        "name": "Amin Wehbe",
+        "id": 2283,
+        "works": [
+          {
+            "id": 8,
+            "name": {
+              "en": "Foodstuffs",
+              "ar": "\u0645\u0648\u0627\u062f \u063a\u0630\u0627\u0626\u064a\u0629",
+              "tr": "G\u0131da maddeleri"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-02T13:44:59.000000Z",
+            "created_at": "2022-02-02T13:42:44.000000Z",
+            "pivot": {
+              "customer_id": "2283",
+              "work_id": "8"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [
+          {
+            "id": 13,
+            "iso_code": "AT",
+            "phone_code": "+43",
+            "status": "1",
+            "created_at": "2022-01-04T15:49:40.000000Z",
+            "updated_at": "2022-04-10T12:37:34.000000Z",
+            "deleted_at": null,
+            "name": {
+              "en": "Austria"
+            },
+            "pivot": {
+              "customer_id": "2283",
+              "country_id": "13"
+            }
+          }
+        ],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0645\u0635\u0637\u0641\u0649 \u0643\u0627\u064a\u0627",
+        "id": 2282,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0645\u062d\u0645\u062f \u062d\u0633\u0643\u0644",
+        "id": 2281,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Josef waiz",
+        "id": 2280,
+        "works": [
+          {
+            "id": 14,
+            "name": {
+              "ar": "\u062d\u0644\u0648\u064a\u0627\u062a",
+              "en": "Sweets"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-06-11T12:16:05.000000Z",
+            "created_at": "2022-05-17T12:01:47.000000Z",
+            "pivot": {
+              "customer_id": "2280",
+              "work_id": "14"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [
+          {
+            "id": 172,
+            "iso_code": "SE",
+            "phone_code": "+46",
+            "status": "1",
+            "created_at": "2022-01-04T15:49:40.000000Z",
+            "updated_at": "2022-04-10T12:37:34.000000Z",
+            "deleted_at": null,
+            "name": {
+              "en": "Sweden"
+            },
+            "pivot": {
+              "customer_id": "2280",
+              "country_id": "172"
+            }
+          }
+        ],
+        "shipment_type": null
+      },
+      {
+        "name": "Ziad Azizi",
+        "id": 2279,
+        "works": [
+          {
+            "id": 14,
+            "name": {
+              "ar": "\u062d\u0644\u0648\u064a\u0627\u062a",
+              "en": "Sweets"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-06-11T12:16:05.000000Z",
+            "created_at": "2022-05-17T12:01:47.000000Z",
+            "pivot": {
+              "customer_id": "2279",
+              "work_id": "14"
+            }
+          },
+          {
+            "id": 3,
+            "name": {
+              "en": "Furniture",
+              "ar": "\u0645\u0641\u0631\u0648\u0634\u0627\u062a",
+              "tr": "Mobilya"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-05-17T12:02:50.000000Z",
+            "created_at": "2022-02-01T08:44:25.000000Z",
+            "pivot": {
+              "customer_id": "2279",
+              "work_id": "3"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [
+          {
+            "id": 20,
+            "iso_code": "BE",
+            "phone_code": "+32",
+            "status": "1",
+            "created_at": "2022-01-04T15:49:40.000000Z",
+            "updated_at": "2022-04-10T12:37:34.000000Z",
+            "deleted_at": null,
+            "name": {
+              "en": "Belgium"
+            },
+            "pivot": {
+              "customer_id": "2279",
+              "country_id": "20"
+            }
+          }
+        ],
+        "shipment_type": null
+      },
+      {
+        "name": "Halil Abead Alsary",
+        "id": 2278,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Taessir Alobaid",
+        "id": 2277,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Amer Nyarwa",
+        "id": 2276,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Abdullah Ghsli",
+        "id": 2275,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Wahed",
+        "id": 2274,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "KHALED MAHROUSEH",
+        "id": 2272,
+        "works": [
+          {
+            "id": 14,
+            "name": {
+              "ar": "\u062d\u0644\u0648\u064a\u0627\u062a",
+              "en": "Sweets"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-06-11T12:16:05.000000Z",
+            "created_at": "2022-05-17T12:01:47.000000Z",
+            "pivot": {
+              "customer_id": "2272",
+              "work_id": "14"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0627\u062d\u0645\u062f \u0631\u064a\u0627\u0636 \u0646\u0642\u0634",
+        "id": 2271,
+        "works": [
+          {
+            "id": 10,
+            "name": {
+              "en": "Clothes",
+              "ar": "\u0627\u0644\u0628\u0633\u0629",
+              "tr": "K\u0131yafet"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-02T13:49:21.000000Z",
+            "created_at": "2022-02-02T13:48:54.000000Z",
+            "pivot": {
+              "customer_id": "2271",
+              "work_id": "10"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Wajih ALzeer",
+        "id": 2270,
+        "works": [
+          {
+            "id": 3,
+            "name": {
+              "en": "Furniture",
+              "ar": "\u0645\u0641\u0631\u0648\u0634\u0627\u062a",
+              "tr": "Mobilya"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-05-17T12:02:50.000000Z",
+            "created_at": "2022-02-01T08:44:25.000000Z",
+            "pivot": {
+              "customer_id": "2270",
+              "work_id": "3"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0632\u0647\u064a\u0631 \u0627\u0644\u0628\u0631\u064a",
+        "id": 2269,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0627\u0628\u0648 \u0648\u0633\u064a\u0645 \u0627\u0644\u062d\u0631\u062d",
+        "id": 2268,
+        "works": [
+          {
+            "id": 10,
+            "name": {
+              "en": "Clothes",
+              "ar": "\u0627\u0644\u0628\u0633\u0629",
+              "tr": "K\u0131yafet"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-02T13:49:21.000000Z",
+            "created_at": "2022-02-02T13:48:54.000000Z",
+            "pivot": {
+              "customer_id": "2268",
+              "work_id": "10"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Bakri Zahra",
+        "id": 2267,
+        "works": [
+          {
+            "id": 3,
+            "name": {
+              "en": "Furniture",
+              "ar": "\u0645\u0641\u0631\u0648\u0634\u0627\u062a",
+              "tr": "Mobilya"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-05-17T12:02:50.000000Z",
+            "created_at": "2022-02-01T08:44:25.000000Z",
+            "pivot": {
+              "customer_id": "2267",
+              "work_id": "3"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u062d\u0645\u0632\u0629 \u0639\u0631\u0648\u0629",
+        "id": 2266,
+        "works": [
+          {
+            "id": 10,
+            "name": {
+              "en": "Clothes",
+              "ar": "\u0627\u0644\u0628\u0633\u0629",
+              "tr": "K\u0131yafet"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-02T13:49:21.000000Z",
+            "created_at": "2022-02-02T13:48:54.000000Z",
+            "pivot": {
+              "customer_id": "2266",
+              "work_id": "10"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0633\u0645\u064a\u062d",
+        "id": 2265,
+        "works": [
+          {
+            "id": 10,
+            "name": {
+              "en": "Clothes",
+              "ar": "\u0627\u0644\u0628\u0633\u0629",
+              "tr": "K\u0131yafet"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-02T13:49:21.000000Z",
+            "created_at": "2022-02-02T13:48:54.000000Z",
+            "pivot": {
+              "customer_id": "2265",
+              "work_id": "10"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0645\u0639\u0627\u0630 \u062e\u0628\u0627\u0632",
+        "id": 2264,
+        "works": [
+          {
+            "id": 10,
+            "name": {
+              "en": "Clothes",
+              "ar": "\u0627\u0644\u0628\u0633\u0629",
+              "tr": "K\u0131yafet"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-02T13:49:21.000000Z",
+            "created_at": "2022-02-02T13:48:54.000000Z",
+            "pivot": {
+              "customer_id": "2264",
+              "work_id": "10"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0645\u062d\u0645\u062f \u0634\u0645\u0627\u0644\u064a",
+        "id": 2263,
+        "works": [
+          {
+            "id": 10,
+            "name": {
+              "en": "Clothes",
+              "ar": "\u0627\u0644\u0628\u0633\u0629",
+              "tr": "K\u0131yafet"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-02T13:49:21.000000Z",
+            "created_at": "2022-02-02T13:48:54.000000Z",
+            "pivot": {
+              "customer_id": "2263",
+              "work_id": "10"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0627\u0628\u0648 \u0627\u0646\u0633 \u0643\u0631\u0643\u0631",
+        "id": 2262,
+        "works": [
+          {
+            "id": 19,
+            "name": {
+              "ar": "\u0645\u0648\u0627\u0644\u062d"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-05-17T12:04:30.000000Z",
+            "created_at": "2022-05-17T12:04:30.000000Z",
+            "pivot": {
+              "customer_id": "2262",
+              "work_id": "19"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u062d\u0645\u0632\u0629 \u0628\u0627\u0631\u0643\u0648\u062f",
+        "id": 2261,
+        "works": [
+          {
+            "id": 10,
+            "name": {
+              "en": "Clothes",
+              "ar": "\u0627\u0644\u0628\u0633\u0629",
+              "tr": "K\u0131yafet"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-02T13:49:21.000000Z",
+            "created_at": "2022-02-02T13:48:54.000000Z",
+            "pivot": {
+              "customer_id": "2261",
+              "work_id": "10"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0627\u0645\u062c\u062f",
+        "id": 2260,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0645\u062d\u0645\u062f \u0645\u0644\u0642\u064a",
+        "id": 2259,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Mustafa Kazmouz",
+        "id": 2258,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0623\u064a\u0647\u0645 \u0634\u0646\u0627\u0646",
+        "id": 2257,
+        "works": [
+          {
+            "id": 3,
+            "name": {
+              "en": "Furniture",
+              "ar": "\u0645\u0641\u0631\u0648\u0634\u0627\u062a",
+              "tr": "Mobilya"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-05-17T12:02:50.000000Z",
+            "created_at": "2022-02-01T08:44:25.000000Z",
+            "pivot": {
+              "customer_id": "2257",
+              "work_id": "3"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0645\u0627\u0631\u0643\u062a \u0627\u0644\u0628\u0637\u0648\u0634\u064a \u062c\u064a \u0628\u064a \u062c\u064a",
+        "id": 2256,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0645\u0639\u0645\u0644 \u0628\u0648\u0633\u0641\u0648\u0631\u0633\u0648 \u0644\u0644\u062d\u0644\u0648\u064a\u0627\u062a",
+        "id": 2255,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0645\u0639\u0645\u0644 \u0631\u0648\u0632 \u062f\u064a\u0645\u0627\u0633",
+        "id": 2254,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0645\u0639\u0645\u0644 \u0643\u0627\u0631\u064a\u0632\u0645\u0627 \u0644\u0644\u062d\u0644\u0648\u064a\u0627\u062a",
+        "id": 2253,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0645\u0639\u0645\u0644 \u0645\u0647\u0631\u0648\u0633\u0629 \u0627\u0628\u0646\u0627\u0621 \u0639\u0645",
+        "id": 2252,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0645\u0639\u0645\u0644 \u0644\u064a\u0648\u0646\u062a\u0633 \u0644\u0644\u0645\u0648\u0627\u0644\u062d",
+        "id": 2251,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u062d\u0644\u0648\u064a\u0627\u062a \u0633\u0639\u064a\u062f \u0648\u0637\u0641\u0629",
+        "id": 2250,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Obeida Musa",
+        "id": 2249,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Youssef Suleiman",
+        "id": 2248,
+        "works": [
+          {
+            "id": 10,
+            "name": {
+              "en": "Clothes",
+              "ar": "\u0627\u0644\u0628\u0633\u0629",
+              "tr": "K\u0131yafet"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-02T13:49:21.000000Z",
+            "created_at": "2022-02-02T13:48:54.000000Z",
+            "pivot": {
+              "customer_id": "2248",
+              "work_id": "10"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [
+          {
+            "id": 181,
+            "iso_code": "TR",
+            "phone_code": "+90",
+            "status": "1",
+            "created_at": "2022-01-04T15:49:40.000000Z",
+            "updated_at": "2022-04-10T12:37:34.000000Z",
+            "deleted_at": null,
+            "name": {
+              "en": "Turkey"
+            },
+            "pivot": {
+              "customer_id": "2248",
+              "country_id": "181"
+            }
+          }
+        ],
+        "shipment_type": null
+      },
+      {
+        "name": "Krupp s novel",
+        "id": 2247,
+        "works": [
+          {
+            "id": 10,
+            "name": {
+              "en": "Clothes",
+              "ar": "\u0627\u0644\u0628\u0633\u0629",
+              "tr": "K\u0131yafet"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-02T13:49:21.000000Z",
+            "created_at": "2022-02-02T13:48:54.000000Z",
+            "pivot": {
+              "customer_id": "2247",
+              "work_id": "10"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [
+          {
+            "id": 181,
+            "iso_code": "TR",
+            "phone_code": "+90",
+            "status": "1",
+            "created_at": "2022-01-04T15:49:40.000000Z",
+            "updated_at": "2022-04-10T12:37:34.000000Z",
+            "deleted_at": null,
+            "name": {
+              "en": "Turkey"
+            },
+            "pivot": {
+              "customer_id": "2247",
+              "country_id": "181"
+            }
+          }
+        ],
+        "shipment_type": null
+      },
+      {
+        "name": "Ammar Fares",
+        "id": 2246,
+        "works": [
+          {
+            "id": 10,
+            "name": {
+              "en": "Clothes",
+              "ar": "\u0627\u0644\u0628\u0633\u0629",
+              "tr": "K\u0131yafet"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-02T13:49:21.000000Z",
+            "created_at": "2022-02-02T13:48:54.000000Z",
+            "pivot": {
+              "customer_id": "2246",
+              "work_id": "10"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [
+          {
+            "id": 181,
+            "iso_code": "TR",
+            "phone_code": "+90",
+            "status": "1",
+            "created_at": "2022-01-04T15:49:40.000000Z",
+            "updated_at": "2022-04-10T12:37:34.000000Z",
+            "deleted_at": null,
+            "name": {
+              "en": "Turkey"
+            },
+            "pivot": {
+              "customer_id": "2246",
+              "country_id": "181"
+            }
+          }
+        ],
+        "shipment_type": null
+      },
+      {
+        "name": "Bakr\u0131 Jabrini",
+        "id": 2245,
+        "works": [
+          {
+            "id": 3,
+            "name": {
+              "en": "Furniture",
+              "ar": "\u0645\u0641\u0631\u0648\u0634\u0627\u062a",
+              "tr": "Mobilya"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-05-17T12:02:50.000000Z",
+            "created_at": "2022-02-01T08:44:25.000000Z",
+            "pivot": {
+              "customer_id": "2245",
+              "work_id": "3"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [
+          {
+            "id": 181,
+            "iso_code": "TR",
+            "phone_code": "+90",
+            "status": "1",
+            "created_at": "2022-01-04T15:49:40.000000Z",
+            "updated_at": "2022-04-10T12:37:34.000000Z",
+            "deleted_at": null,
+            "name": {
+              "en": "Turkey"
+            },
+            "pivot": {
+              "customer_id": "2245",
+              "country_id": "181"
+            }
+          }
+        ],
+        "shipment_type": null
+      },
+      {
+        "name": "Abdul Raouf Al Effendi",
+        "id": 2244,
+        "works": [
+          {
+            "id": 14,
+            "name": {
+              "ar": "\u062d\u0644\u0648\u064a\u0627\u062a",
+              "en": "Sweets"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-06-11T12:16:05.000000Z",
+            "created_at": "2022-05-17T12:01:47.000000Z",
+            "pivot": {
+              "customer_id": "2244",
+              "work_id": "14"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [
+          {
+            "id": 181,
+            "iso_code": "TR",
+            "phone_code": "+90",
+            "status": "1",
+            "created_at": "2022-01-04T15:49:40.000000Z",
+            "updated_at": "2022-04-10T12:37:34.000000Z",
+            "deleted_at": null,
+            "name": {
+              "en": "Turkey"
+            },
+            "pivot": {
+              "customer_id": "2244",
+              "country_id": "181"
+            }
+          }
+        ],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0632\u0643\u0631\u064a\u0627 \u0639\u064a\u0633\u0649",
+        "id": 2243,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0645\u062d\u0645\u062f \u0628\u0631\u0643\u0627\u062a",
+        "id": 2241,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0628\u0643\u0631\u064a \u062c\u0627\u0633\u0645",
+        "id": 2240,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Hussein Hussein",
+        "id": 2239,
+        "works": [
+          {
+            "id": 14,
+            "name": {
+              "ar": "\u062d\u0644\u0648\u064a\u0627\u062a",
+              "en": "Sweets"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-06-11T12:16:05.000000Z",
+            "created_at": "2022-05-17T12:01:47.000000Z",
+            "pivot": {
+              "customer_id": "2239",
+              "work_id": "14"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Ali Shahri",
+        "id": 2238,
+        "works": [
+          {
+            "id": 18,
+            "name": {
+              "ar": "\u0639\u0633\u0644 \u0648\u0633\u0645\u0646"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-05-17T12:04:15.000000Z",
+            "created_at": "2022-05-17T12:04:15.000000Z",
+            "pivot": {
+              "customer_id": "2238",
+              "work_id": "18"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Ahmed Askar",
+        "id": 2237,
+        "works": [
+          {
+            "id": 14,
+            "name": {
+              "ar": "\u062d\u0644\u0648\u064a\u0627\u062a",
+              "en": "Sweets"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-06-11T12:16:05.000000Z",
+            "created_at": "2022-05-17T12:01:47.000000Z",
+            "pivot": {
+              "customer_id": "2237",
+              "work_id": "14"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Ali loulak",
+        "id": 2236,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Sidra Dawas",
+        "id": 2235,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0641\u0647\u062f \u0627\u0644\u062d\u0627\u0641\u0638",
+        "id": 2234,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Hosen alhafez",
+        "id": 2233,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Fakhir shamae",
+        "id": 2232,
+        "works": [
+          {
+            "id": 8,
+            "name": {
+              "en": "Foodstuffs",
+              "ar": "\u0645\u0648\u0627\u062f \u063a\u0630\u0627\u0626\u064a\u0629",
+              "tr": "G\u0131da maddeleri"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-02T13:44:59.000000Z",
+            "created_at": "2022-02-02T13:42:44.000000Z",
+            "pivot": {
+              "customer_id": "2232",
+              "work_id": "8"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [
+          {
+            "id": 181,
+            "iso_code": "TR",
+            "phone_code": "+90",
+            "status": "1",
+            "created_at": "2022-01-04T15:49:40.000000Z",
+            "updated_at": "2022-04-10T12:37:34.000000Z",
+            "deleted_at": null,
+            "name": {
+              "en": "Turkey"
+            },
+            "pivot": {
+              "customer_id": "2232",
+              "country_id": "181"
+            }
+          }
+        ],
+        "shipment_type": null
+      },
+      {
+        "name": "Hossam Shamsi",
+        "id": 2231,
+        "works": [
+          {
+            "id": 8,
+            "name": {
+              "en": "Foodstuffs",
+              "ar": "\u0645\u0648\u0627\u062f \u063a\u0630\u0627\u0626\u064a\u0629",
+              "tr": "G\u0131da maddeleri"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-02T13:44:59.000000Z",
+            "created_at": "2022-02-02T13:42:44.000000Z",
+            "pivot": {
+              "customer_id": "2231",
+              "work_id": "8"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [
+          {
+            "id": 181,
+            "iso_code": "TR",
+            "phone_code": "+90",
+            "status": "1",
+            "created_at": "2022-01-04T15:49:40.000000Z",
+            "updated_at": "2022-04-10T12:37:34.000000Z",
+            "deleted_at": null,
+            "name": {
+              "en": "Turkey"
+            },
+            "pivot": {
+              "customer_id": "2231",
+              "country_id": "181"
+            }
+          }
+        ],
+        "shipment_type": null
+      },
+      {
+        "name": "Abdel Hamid Hantaya",
+        "id": 2230,
+        "works": [
+          {
+            "id": 8,
+            "name": {
+              "en": "Foodstuffs",
+              "ar": "\u0645\u0648\u0627\u062f \u063a\u0630\u0627\u0626\u064a\u0629",
+              "tr": "G\u0131da maddeleri"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-02T13:44:59.000000Z",
+            "created_at": "2022-02-02T13:42:44.000000Z",
+            "pivot": {
+              "customer_id": "2230",
+              "work_id": "8"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [
+          {
+            "id": 181,
+            "iso_code": "TR",
+            "phone_code": "+90",
+            "status": "1",
+            "created_at": "2022-01-04T15:49:40.000000Z",
+            "updated_at": "2022-04-10T12:37:34.000000Z",
+            "deleted_at": null,
+            "name": {
+              "en": "Turkey"
+            },
+            "pivot": {
+              "customer_id": "2230",
+              "country_id": "181"
+            }
+          }
+        ],
+        "shipment_type": null
+      },
+      {
+        "name": "Abdul Latif Muhammed",
+        "id": 2229,
+        "works": [
+          {
+            "id": 8,
+            "name": {
+              "en": "Foodstuffs",
+              "ar": "\u0645\u0648\u0627\u062f \u063a\u0630\u0627\u0626\u064a\u0629",
+              "tr": "G\u0131da maddeleri"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-02T13:44:59.000000Z",
+            "created_at": "2022-02-02T13:42:44.000000Z",
+            "pivot": {
+              "customer_id": "2229",
+              "work_id": "8"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [
+          {
+            "id": 181,
+            "iso_code": "TR",
+            "phone_code": "+90",
+            "status": "1",
+            "created_at": "2022-01-04T15:49:40.000000Z",
+            "updated_at": "2022-04-10T12:37:34.000000Z",
+            "deleted_at": null,
+            "name": {
+              "en": "Turkey"
+            },
+            "pivot": {
+              "customer_id": "2229",
+              "country_id": "181"
+            }
+          }
+        ],
+        "shipment_type": null
+      },
+      {
+        "name": "Muhammed Mansour",
+        "id": 2228,
+        "works": [
+          {
+            "id": 8,
+            "name": {
+              "en": "Foodstuffs",
+              "ar": "\u0645\u0648\u0627\u062f \u063a\u0630\u0627\u0626\u064a\u0629",
+              "tr": "G\u0131da maddeleri"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-02T13:44:59.000000Z",
+            "created_at": "2022-02-02T13:42:44.000000Z",
+            "pivot": {
+              "customer_id": "2228",
+              "work_id": "8"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Mohamed Haffara",
+        "id": 2227,
+        "works": [
+          {
+            "id": 8,
+            "name": {
+              "en": "Foodstuffs",
+              "ar": "\u0645\u0648\u0627\u062f \u063a\u0630\u0627\u0626\u064a\u0629",
+              "tr": "G\u0131da maddeleri"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-02T13:44:59.000000Z",
+            "created_at": "2022-02-02T13:42:44.000000Z",
+            "pivot": {
+              "customer_id": "2227",
+              "work_id": "8"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [
+          {
+            "id": 181,
+            "iso_code": "TR",
+            "phone_code": "+90",
+            "status": "1",
+            "created_at": "2022-01-04T15:49:40.000000Z",
+            "updated_at": "2022-04-10T12:37:34.000000Z",
+            "deleted_at": null,
+            "name": {
+              "en": "Turkey"
+            },
+            "pivot": {
+              "customer_id": "2227",
+              "country_id": "181"
+            }
+          }
+        ],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u0623\u0628\u0646\u0627\u0621 \u0627\u0644\u0639\u0631\u0628\u064a",
+        "id": 2226,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u0627\u0644\u062c\u0648\u062f",
+        "id": 2225,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u0627\u0644\u0647\u064a\u0628 \u0627\u0644\u062a\u062c\u0627\u0631\u064a\u0629",
+        "id": 2224,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u0627\u0644\u0634\u0627\u0645\u064a \u0644\u062a\u062c\u0627\u0631\u0629 \u0627\u0644\u0645\u0648\u0627\u062f \u0627\u0644\u063a\u0630\u0627\u0626\u064a\u0629",
+        "id": 2223,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u0645\u0627\u0631\u064a\u0627 \u063a\u0631\u0648\u0628",
+        "id": 2222,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u062a\u0648\u0644\u064a\u0628 \u0627\u0633\u0637\u0646\u0628\u0648\u0644",
+        "id": 2221,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u0644\u064a\u062f\u0631 \u0645\u0648\u0628",
+        "id": 2220,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u0633\u064a\u0641\u0627 \u0644\u0644\u0647\u062f\u0627\u064a\u0627",
+        "id": 2219,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u0641\u064a\u0641\u0648\u0643\u0633",
+        "id": 2218,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u0627\u0643\u0631\u0648\u0643\u0633 \u0642\u0631\u0637\u0627\u0633\u064a\u0629",
+        "id": 2217,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u0633\u064a\u062a\u0627 \u0644\u0644\u0642\u0631\u0637\u0627\u0633\u064a\u0629",
+        "id": 2216,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u0628\u0648\u062e\u0627\u0631\u0649",
+        "id": 2215,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u064a\u0648\u0646\u064a\u0633\u0643\u0648",
+        "id": 2214,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u0627\u0644\u0648\u0633\u064a\u0644\u0629",
+        "id": 2213,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u0633\u0627\u0645 \u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u0633\u0627\u062a\u0627\u0643\u0648",
+        "id": 2212,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u0645\u0643\u0629 \u0644\u0644\u0634\u062d\u0646 \u0627\u0644\u062f\u0648\u0644\u064a",
+        "id": 2211,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Abbar Dasouki",
+        "id": 2210,
+        "works": [
+          {
+            "id": 3,
+            "name": {
+              "en": "Furniture",
+              "ar": "\u0645\u0641\u0631\u0648\u0634\u0627\u062a",
+              "tr": "Mobilya"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-05-17T12:02:50.000000Z",
+            "created_at": "2022-02-01T08:44:25.000000Z",
+            "pivot": {
+              "customer_id": "2210",
+              "work_id": "3"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [
+          {
+            "id": 181,
+            "iso_code": "TR",
+            "phone_code": "+90",
+            "status": "1",
+            "created_at": "2022-01-04T15:49:40.000000Z",
+            "updated_at": "2022-04-10T12:37:34.000000Z",
+            "deleted_at": null,
+            "name": {
+              "en": "Turkey"
+            },
+            "pivot": {
+              "customer_id": "2210",
+              "country_id": "181"
+            }
+          }
+        ],
+        "shipment_type": null
+      },
+      {
+        "name": "Adel Gharibi",
+        "id": 2209,
+        "works": [
+          {
+            "id": 19,
+            "name": {
+              "ar": "\u0645\u0648\u0627\u0644\u062d"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-05-17T12:04:30.000000Z",
+            "created_at": "2022-05-17T12:04:30.000000Z",
+            "pivot": {
+              "customer_id": "2209",
+              "work_id": "19"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [
+          {
+            "id": 181,
+            "iso_code": "TR",
+            "phone_code": "+90",
+            "status": "1",
+            "created_at": "2022-01-04T15:49:40.000000Z",
+            "updated_at": "2022-04-10T12:37:34.000000Z",
+            "deleted_at": null,
+            "name": {
+              "en": "Turkey"
+            },
+            "pivot": {
+              "customer_id": "2209",
+              "country_id": "181"
+            }
+          }
+        ],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u0631\u0648\u0632\u0627\u0646\u0627 \u0627\u0644\u063a\u0630\u0627\u0626\u064a\u0629",
+        "id": 2208,
+        "works": [
+          {
+            "id": 8,
+            "name": {
+              "en": "Foodstuffs",
+              "ar": "\u0645\u0648\u0627\u062f \u063a\u0630\u0627\u0626\u064a\u0629",
+              "tr": "G\u0131da maddeleri"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-02T13:44:59.000000Z",
+            "created_at": "2022-02-02T13:42:44.000000Z",
+            "pivot": {
+              "customer_id": "2208",
+              "work_id": "8"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u0631\u0634\u064a\u062f \u0623\u0648\u063a\u0644\u0648",
+        "id": 2207,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u0628\u0646 \u0627\u0644\u0648\u0627\u0644\u064a",
+        "id": 2206,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u0635\u0628\u0627\u0647\u064a \u0627\u0644\u0627\u0641\u0646\u062f\u064a",
+        "id": 2205,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u0627\u0644\u0639\u0631\u0628\u064a \u0627\u0644\u063a\u0630\u0627\u0626\u064a\u0629",
+        "id": 2204,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u0646\u0639\u0645\u0629 \u0627\u0644\u063a\u0630\u0627\u0626\u064a\u0629",
+        "id": 2203,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u0627\u0644\u0628\u0631\u0627\u0642 \u0644\u0644\u0645\u0648\u0627\u0644\u062d",
+        "id": 2202,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u064cRama nash",
+        "id": 2201,
+        "works": [
+          {
+            "id": 8,
+            "name": {
+              "en": "Foodstuffs",
+              "ar": "\u0645\u0648\u0627\u062f \u063a\u0630\u0627\u0626\u064a\u0629",
+              "tr": "G\u0131da maddeleri"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-02T13:44:59.000000Z",
+            "created_at": "2022-02-02T13:42:44.000000Z",
+            "pivot": {
+              "customer_id": "2201",
+              "work_id": "8"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [
+          {
+            "id": 181,
+            "iso_code": "TR",
+            "phone_code": "+90",
+            "status": "1",
+            "created_at": "2022-01-04T15:49:40.000000Z",
+            "updated_at": "2022-04-10T12:37:34.000000Z",
+            "deleted_at": null,
+            "name": {
+              "en": "Turkey"
+            },
+            "pivot": {
+              "customer_id": "2201",
+              "country_id": "181"
+            }
+          }
+        ],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0645\u0627\u0631\u0643\u062a \u0627\u0644\u0633\u064a\u062f",
+        "id": 2200,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0645\u0627\u0631\u0643\u062a \u0627\u0644\u0646\u0648\u0631",
+        "id": 2199,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0633\u0646\u062a\u0631 \u0627\u0644\u0639\u0627\u0626\u0644\u0629",
+        "id": 2198,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0628\u0646 \u0627\u0644\u0632\u064a\u062a\u0648\u0646\u064a",
+        "id": 2197,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0645\u0635\u0646\u0639 \u0628\u0627\u0634\u0627 \u0647\u0648\u0645 \u0644\u0644\u0633\u062c\u0627\u062f",
+        "id": 2196,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Wahid Kizmuz",
+        "id": 2195,
+        "works": [
+          {
+            "id": 14,
+            "name": {
+              "ar": "\u062d\u0644\u0648\u064a\u0627\u062a",
+              "en": "Sweets"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-06-11T12:16:05.000000Z",
+            "created_at": "2022-05-17T12:01:47.000000Z",
+            "pivot": {
+              "customer_id": "2195",
+              "work_id": "14"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Noor Alhssen",
+        "id": 2194,
+        "works": [
+          {
+            "id": 10,
+            "name": {
+              "en": "Clothes",
+              "ar": "\u0627\u0644\u0628\u0633\u0629",
+              "tr": "K\u0131yafet"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-02T13:49:21.000000Z",
+            "created_at": "2022-02-02T13:48:54.000000Z",
+            "pivot": {
+              "customer_id": "2194",
+              "work_id": "10"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Hassan Aslan",
+        "id": 2193,
+        "works": [
+          {
+            "id": 8,
+            "name": {
+              "en": "Foodstuffs",
+              "ar": "\u0645\u0648\u0627\u062f \u063a\u0630\u0627\u0626\u064a\u0629",
+              "tr": "G\u0131da maddeleri"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-02T13:44:59.000000Z",
+            "created_at": "2022-02-02T13:42:44.000000Z",
+            "pivot": {
+              "customer_id": "2193",
+              "work_id": "8"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0645\u0627\u0631\u0643\u062a \u0627\u0644\u0646\u0643\u0645\u0629",
+        "id": 2192,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0628\u0646 \u0627\u0644\u0627\u0645\u064a\u0631",
+        "id": 2191,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u0645\u064a\u0644\u0627\u062c\u064a \u0644\u0644\u0634\u062d\u0646 \u0627\u0644\u062f\u0648\u0644\u064a",
+        "id": 2190,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0645\u0627\u0631\u0643\u062a \u0643\u0631\u0643\u0631",
+        "id": 2189,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0632\u064a\u062f \u0627\u0644\u0642\u0627\u0633\u0645",
+        "id": 2187,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0645\u0635\u0646\u0639 \u0633\u062c\u0627\u062f \u062f\u064a\u062c\u064a\u062a\u0627\u0644",
+        "id": 2186,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u0633\u0646\u0627 \u0627\u0644\u063a\u0630\u0627\u0626\u064a\u0629",
+        "id": 2185,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0645\u0627\u0631\u0643\u062a \u0627\u0644\u0639\u0627\u0626\u0644\u0629",
+        "id": 2184,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0645\u0627\u0631\u0643\u062a \u0627\u0644\u0648\u0631\u062f",
+        "id": 2183,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u0628\u064a\u062c \u0648\u064a\u0646",
+        "id": 2182,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u0645\u0633 \u0645\u0627\u062a\u0648",
+        "id": 2181,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u0628\u0627\u064a\u062a",
+        "id": 2180,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u0627\u0633\u0637\u0646\u0628\u0648\u0644\u064a\u062a \u0645\u0648\u062f\u0627",
+        "id": 2179,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u0644\u0648\u0628\u0648",
+        "id": 2178,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u0631\u062d\u0645\u0627\u0646\u0648 \u0627\u0644\u064a\u0641\u064a\u0646",
+        "id": 2177,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u0627\u0648\u0641 \u0646\u0627\u064a\u062a",
+        "id": 2176,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u062c\u0627\u0643 \u0627\u0628\u0649",
+        "id": 2175,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Laith AL Janabi",
+        "id": 2174,
+        "works": [
+          {
+            "id": 3,
+            "name": {
+              "en": "Furniture",
+              "ar": "\u0645\u0641\u0631\u0648\u0634\u0627\u062a",
+              "tr": "Mobilya"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-05-17T12:02:50.000000Z",
+            "created_at": "2022-02-01T08:44:25.000000Z",
+            "pivot": {
+              "customer_id": "2174",
+              "work_id": "3"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u0634\u0627\u0647\u0627\u0646\u064a",
+        "id": 2173,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u0627\u0644\u0633\u0644\u0637\u0627\u0646\u0629",
+        "id": 2172,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u062f\u064a\u0628 \u0628\u0648\u064a\u0646\u062a",
+        "id": 2171,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u062a\u0627\u062a\u0648 \u0644\u0644\u0623\u0644\u0628\u0633\u0629",
+        "id": 2170,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u0644\u064a\u0648\u0646 \u0628\u0627\u0631\u0643",
+        "id": 2169,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u0627\u0646\u062a\u0631 \u0641\u064a",
+        "id": 2168,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u0645\u0627\u0631\u062a\u0631 \u0634\u062d\u0646 \u062f\u0627\u062e\u0644\u064a",
+        "id": 2167,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0645\u0627\u0631\u0643\u062a \u0627\u0644\u0627\u0635\u062f\u0642\u0627\u0621",
+        "id": 2163,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0645\u0627\u0631\u0643\u062a \u0627\u0644\u0646\u0639\u0645\u0648",
+        "id": 2162,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "\u0634\u0631\u0643\u0629 \u062c\u0646\u062a\u064a \u0644\u0644\u0628\u0647\u0627\u0631\u0627\u062a",
+        "id": 2161,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Hasan Sleman",
+        "id": 2157,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Khaldon",
+        "id": 2154,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Kawthar Keshan",
+        "id": 2153,
+        "works": [
+          {
+            "id": 10,
+            "name": {
+              "en": "Clothes",
+              "ar": "\u0627\u0644\u0628\u0633\u0629",
+              "tr": "K\u0131yafet"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-02T13:49:21.000000Z",
+            "created_at": "2022-02-02T13:48:54.000000Z",
+            "pivot": {
+              "customer_id": "2153",
+              "work_id": "10"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Ahmad Husseen",
+        "id": 2152,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Ahmad Zagal",
+        "id": 2151,
+        "works": [
+          {
+            "id": 8,
+            "name": {
+              "en": "Foodstuffs",
+              "ar": "\u0645\u0648\u0627\u062f \u063a\u0630\u0627\u0626\u064a\u0629",
+              "tr": "G\u0131da maddeleri"
+            },
+            "deleted_at": null,
+            "updated_at": "2022-02-02T13:44:59.000000Z",
+            "created_at": "2022-02-02T13:42:44.000000Z",
+            "pivot": {
+              "customer_id": "2151",
+              "work_id": "8"
+            }
+          }
+        ],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Jamal Al-Zubydy",
+        "id": 2150,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Hussin Al hussin",
+        "id": 2149,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Ayman Tayar",
+        "id": 2148,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Ayman Kodsi",
+        "id": 2147,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      },
+      {
+        "name": "Ahmad Kodsi",
+        "id": 2146,
+        "works": [],
+        "county": null,
+        "branch_countries": [],
+        "shipment_type": null
+      }
+    ]
+  },
+  "your_orders": {
+    "total": 6,
+    "data": {
+      "2": "1",
+      "3": "3",
+      "56": "2"
+    }
+  },
+  "countries_orders": {
+    "total": 36,
+    "data": [
+      {
+        "count": "35",
+        "sender_country_id": "181",
+        "from_country": {
+          "id": 181,
+          "iso_code": "TR",
+          "phone_code": "+90",
+          "status": "1",
+          "created_at": "2022-01-04T15:49:40.000000Z",
+          "updated_at": "2022-04-10T12:37:34.000000Z",
+          "deleted_at": null,
+          "name": {
+            "en": "Turkey"
+          }
+        }
+      },
+      {
+        "count": "1",
+        "sender_country_id": "234",
+        "from_country": {
+          "id": 234,
+          "iso_code": "SY",
+          "phone_code": "+963",
+          "status": "1",
+          "created_at": "2022-01-04T15:49:40.000000Z",
+          "updated_at": "2022-04-10T12:37:34.000000Z",
+          "deleted_at": null,
+          "name": {
+            "en": "Syrian Arab Republic"
+          }
+        }
+      }
+    ]
+  },
+  "top_services": {
+    "total": 36,
+    "data": {
+      "Pallet": "8",
+      "Box Carton": "8",
+      "Truck": "6",
+      "KG": "6",
+      "Large Box": "5",
+      "Furniture": "2",
+      "CBM": "1"
+    }
+  },
+  "last_orders": {
+    "total": 0,
+    "data": [
+      {
+        "code": "BOXjt-2206243",
+        "sender_country_id": "181",
+        "receiver_country_id": "71",
+        "status": "3",
+        "service_id": "10",
+        "receiver_county_id": "966",
+        "receiver_address": "L\u00fcbeckmoislinger berg. 15 Germany",
+        "sender_address": "Gaziantep",
+        "service": {
+          "id": 10,
+          "name": {
+            "en": "Box Carton",
+            "tr": "Koli",
+            "ar": "\u0635\u0646\u062f\u0648\u0642",
+            "fr": "Bo\u00eete",
+            "nl": "Doos"
+          },
+          "custom": false,
+          "height": "20",
+          "length": "20",
+          "weight": "30",
+          "width": "50",
+          "icon": "<i class=\"fas fa-box\"><\/i>",
+          "parent": null
+        },
+        "status_ob": {
+          "id": 3,
+          "name": {
+            "en": "Accepted",
+            "ar": "\u0642\u064f\u0628\u0650\u0644\u064e\u062a\u0652",
+            "tr": "Kabul edildi"
+          },
+          "class": "btn-warning",
+          "key": "waitting",
+          "notify_roles": "[  \"accountant\" , \"driver\" ]",
+          "notify_super": "1",
+          "alarm_time": "120",
+          "show_client": "1"
+        },
+        "from_country": {
+          "id": 181,
+          "iso_code": "TR",
+          "phone_code": "+90",
+          "status": "1",
+          "created_at": "2022-01-04T15:49:40.000000Z",
+          "updated_at": "2022-04-10T12:37:34.000000Z",
+          "deleted_at": null,
+          "name": {
+            "en": "Turkey"
+          }
+        },
+        "to_country": {
+          "id": 71,
+          "iso_code": "DE",
+          "phone_code": "+49",
+          "status": "1",
+          "created_at": "2022-01-04T15:49:40.000000Z",
+          "updated_at": "2022-04-10T12:37:34.000000Z",
+          "deleted_at": null,
+          "name": {
+            "en": "Germany"
+          }
+        },
+        "from_county": null,
+        "to_county": {
+          "id": 966,
+          "country_id": "71",
+          "status": "1",
+          "created_at": "2022-06-22T14:30:44.000000Z",
+          "updated_at": "2022-06-22T14:30:44.000000Z",
+          "deleted_at": null,
+          "name": {
+            "ar": "L\u00fcbeck"
+          }
+        }
+      },
+      {
+        "code": "LBqVJ-2206563",
+        "sender_country_id": "181",
+        "receiver_country_id": "13",
+        "status": "3",
+        "service_id": "21",
+        "receiver_county_id": "346",
+        "receiver_address": "wien \/ 0221 \/ telephone Weg 265 G8 Osterreich",
+        "sender_address": "gaziantep",
+        "service": {
+          "id": 21,
+          "name": {
+            "en": "Large Box",
+            "ar": "\u0635\u0646\u062f\u0648\u0642 \u0643\u0628\u064a\u0631"
+          },
+          "custom": false,
+          "height": "60",
+          "length": "50",
+          "weight": "30",
+          "width": "50",
+          "icon": "<i class=\"fas fa-box\"><\/i>",
+          "parent": null
+        },
+        "status_ob": {
+          "id": 3,
+          "name": {
+            "en": "Accepted",
+            "ar": "\u0642\u064f\u0628\u0650\u0644\u064e\u062a\u0652",
+            "tr": "Kabul edildi"
+          },
+          "class": "btn-warning",
+          "key": "waitting",
+          "notify_roles": "[  \"accountant\" , \"driver\" ]",
+          "notify_super": "1",
+          "alarm_time": "120",
+          "show_client": "1"
+        },
+        "from_country": {
+          "id": 181,
+          "iso_code": "TR",
+          "phone_code": "+90",
+          "status": "1",
+          "created_at": "2022-01-04T15:49:40.000000Z",
+          "updated_at": "2022-04-10T12:37:34.000000Z",
+          "deleted_at": null,
+          "name": {
+            "en": "Turkey"
+          }
+        },
+        "to_country": {
+          "id": 13,
+          "iso_code": "AT",
+          "phone_code": "+43",
+          "status": "1",
+          "created_at": "2022-01-04T15:49:40.000000Z",
+          "updated_at": "2022-04-10T12:37:34.000000Z",
+          "deleted_at": null,
+          "name": {
+            "en": "Austria"
+          }
+        },
+        "from_county": null,
+        "to_county": {
+          "id": 346,
+          "country_id": "13",
+          "status": "1",
+          "created_at": "2022-01-08T17:08:47.000000Z",
+          "updated_at": "2022-04-10T12:37:34.000000Z",
+          "deleted_at": null,
+          "name": {
+            "en": "Vienna"
+          }
+        }
+      },
+      {
+        "code": "CBMji-2206715",
+        "sender_country_id": "181",
+        "receiver_country_id": "71",
+        "status": "3",
+        "service_id": "16",
+        "receiver_county_id": "951",
+        "receiver_address": "Uerdinger Str, 20\u201422 47799 Krefeld",
+        "sender_address": "gaziantep",
+        "service": {
+          "id": 16,
+          "name": {
+            "en": "CBM",
+            "ar": "\u0645\u062a\u0631 \u0645\u0643\u0639\u0628",
+            "tr": "Metrek\u00fcp",
+            "fr": "M\u00e8tres cubes",
+            "nl": "Kubieke meter"
+          },
+          "custom": false,
+          "height": "0",
+          "length": "0",
+          "weight": "-1",
+          "width": "0",
+          "icon": "<i class=\"fas fa-expand-arrows-alt\"><\/i>",
+          "parent": null
+        },
+        "status_ob": {
+          "id": 3,
+          "name": {
+            "en": "Accepted",
+            "ar": "\u0642\u064f\u0628\u0650\u0644\u064e\u062a\u0652",
+            "tr": "Kabul edildi"
+          },
+          "class": "btn-warning",
+          "key": "waitting",
+          "notify_roles": "[  \"accountant\" , \"driver\" ]",
+          "notify_super": "1",
+          "alarm_time": "120",
+          "show_client": "1"
+        },
+        "from_country": {
+          "id": 181,
+          "iso_code": "TR",
+          "phone_code": "+90",
+          "status": "1",
+          "created_at": "2022-01-04T15:49:40.000000Z",
+          "updated_at": "2022-04-10T12:37:34.000000Z",
+          "deleted_at": null,
+          "name": {
+            "en": "Turkey"
+          }
+        },
+        "to_country": {
+          "id": 71,
+          "iso_code": "DE",
+          "phone_code": "+49",
+          "status": "1",
+          "created_at": "2022-01-04T15:49:40.000000Z",
+          "updated_at": "2022-04-10T12:37:34.000000Z",
+          "deleted_at": null,
+          "name": {
+            "en": "Germany"
+          }
+        },
+        "from_county": null,
+        "to_county": {
+          "id": 951,
+          "country_id": "71",
+          "status": "1",
+          "created_at": "2022-05-24T19:47:07.000000Z",
+          "updated_at": "2022-05-24T19:47:07.000000Z",
+          "deleted_at": null,
+          "name": {
+            "en": "Wilsdruff"
+          }
+        }
+      },
+      {
+        "code": "LBbrN-2206777",
+        "sender_country_id": "181",
+        "receiver_country_id": "71",
+        "status": "3",
+        "service_id": "21",
+        "receiver_county_id": "34",
+        "receiver_address": "Mettlach",
+        "sender_address": "\u0633\u0644\u0637\u0627\u0646 \u063a\u0627\u0632\u064a",
+        "service": {
+          "id": 21,
+          "name": {
+            "en": "Large Box",
+            "ar": "\u0635\u0646\u062f\u0648\u0642 \u0643\u0628\u064a\u0631"
+          },
+          "custom": false,
+          "height": "60",
+          "length": "50",
+          "weight": "30",
+          "width": "50",
+          "icon": "<i class=\"fas fa-box\"><\/i>",
+          "parent": null
+        },
+        "status_ob": {
+          "id": 3,
+          "name": {
+            "en": "Accepted",
+            "ar": "\u0642\u064f\u0628\u0650\u0644\u064e\u062a\u0652",
+            "tr": "Kabul edildi"
+          },
+          "class": "btn-warning",
+          "key": "waitting",
+          "notify_roles": "[  \"accountant\" , \"driver\" ]",
+          "notify_super": "1",
+          "alarm_time": "120",
+          "show_client": "1"
+        },
+        "from_country": {
+          "id": 181,
+          "iso_code": "TR",
+          "phone_code": "+90",
+          "status": "1",
+          "created_at": "2022-01-04T15:49:40.000000Z",
+          "updated_at": "2022-04-10T12:37:34.000000Z",
+          "deleted_at": null,
+          "name": {
+            "en": "Turkey"
+          }
+        },
+        "to_country": {
+          "id": 71,
+          "iso_code": "DE",
+          "phone_code": "+49",
+          "status": "1",
+          "created_at": "2022-01-04T15:49:40.000000Z",
+          "updated_at": "2022-04-10T12:37:34.000000Z",
+          "deleted_at": null,
+          "name": {
+            "en": "Germany"
+          }
+        },
+        "from_county": null,
+        "to_county": {
+          "id": 34,
+          "country_id": "71",
+          "status": "1",
+          "created_at": "2022-01-06T16:28:56.000000Z",
+          "updated_at": "2022-01-06T16:28:56.000000Z",
+          "deleted_at": null,
+          "name": {
+            "en": "Brandenburg"
+          }
+        }
+      },
+      {
+        "code": "FRYpA-2206583",
+        "sender_country_id": "181",
+        "receiver_country_id": "20",
+        "status": "3",
+        "service_id": "18",
+        "receiver_county_id": "965",
+        "receiver_address": "rue du reigersvliet 37 1040 etterbeek",
+        "sender_address": "gaziantep",
+        "service": {
+          "id": 18,
+          "name": {
+            "en": "Furniture",
+            "tr": "Mobilya",
+            "ar": "\u0623\u062b\u0627\u062b",
+            "fr": "Meubles",
+            "nl": "Meubelen"
+          },
+          "custom": false,
+          "height": "-1",
+          "length": "-1",
+          "weight": "-1",
+          "width": "-1",
+          "icon": "<i class=\"fas fa-couch\"><\/i>",
+          "parent": null
+        },
+        "status_ob": {
+          "id": 3,
+          "name": {
+            "en": "Accepted",
+            "ar": "\u0642\u064f\u0628\u0650\u0644\u064e\u062a\u0652",
+            "tr": "Kabul edildi"
+          },
+          "class": "btn-warning",
+          "key": "waitting",
+          "notify_roles": "[  \"accountant\" , \"driver\" ]",
+          "notify_super": "1",
+          "alarm_time": "120",
+          "show_client": "1"
+        },
+        "from_country": {
+          "id": 181,
+          "iso_code": "TR",
+          "phone_code": "+90",
+          "status": "1",
+          "created_at": "2022-01-04T15:49:40.000000Z",
+          "updated_at": "2022-04-10T12:37:34.000000Z",
+          "deleted_at": null,
+          "name": {
+            "en": "Turkey"
+          }
+        },
+        "to_country": {
+          "id": 20,
+          "iso_code": "BE",
+          "phone_code": "+32",
+          "status": "1",
+          "created_at": "2022-01-04T15:49:40.000000Z",
+          "updated_at": "2022-04-10T12:37:34.000000Z",
+          "deleted_at": null,
+          "name": {
+            "en": "Belgium"
+          }
+        },
+        "from_county": null,
+        "to_county": {
+          "id": 965,
+          "country_id": "20",
+          "status": "1",
+          "created_at": "2022-06-21T07:02:12.000000Z",
+          "updated_at": "2022-06-21T07:02:12.000000Z",
+          "deleted_at": null,
+          "name": {
+            "ar": "etterbeek",
+            "en": "etterbeek"
+          }
+        }
+      }
+    ]
+  },
+
+  "order_service_month": {
+    "total": 89,
+    "services": {
+      "9": {
+        "id": 9,
+        "char_name": "E",
+        "length": "-1",
+        "width": "-1",
+        "height": "-1",
+        "weight": "-1",
+        "require_items": "0",
+        "status": "1",
+        "created_at": "2021-12-21T11:54:04.000000Z",
+        "updated_at": "2022-05-31T03:55:46.000000Z",
+        "deleted_at": null,
+        "name": {
+          "en": "Envelope",
+          "tr": "Zarf",
+          "ar": "\u0638\u0631\u0641",
+          "fr": "Enveloppe",
+          "nl": "Envelop"
+        },
+        "text": {
+          "en": null
+        },
+        "icon": "<i class=\"fas fa-envelope\"><\/i>",
+        "index": "1",
+        "length_mlt": false,
+        "width_mlt": false,
+        "height_mlt": false,
+        "weight_mlt": false,
+        "parent_id": "0",
+        "multiple": "1",
+        "payments": [
+          1,
+          3,
+          4
+        ],
+        "custom": false,
+        "parent": null
+      },
+      "10": {
+        "id": 10,
+        "char_name": "BOX",
+        "length": "20",
+        "width": "50",
+        "height": "20",
+        "weight": "30",
+        "require_items": "1",
+        "status": "1",
+        "created_at": "2021-12-30T13:56:52.000000Z",
+        "updated_at": "2022-05-31T03:57:48.000000Z",
+        "deleted_at": null,
+        "name": {
+          "en": "Box Carton",
+          "tr": "Koli",
+          "ar": "\u0635\u0646\u062f\u0648\u0642",
+          "fr": "Bo\u00eete",
+          "nl": "Doos"
+        },
+        "text": {
+          "en": null
+        },
+        "icon": "<i class=\"fas fa-box\"><\/i>",
+        "index": "0",
+        "length_mlt": false,
+        "width_mlt": false,
+        "height_mlt": false,
+        "weight_mlt": false,
+        "parent_id": "0",
+        "multiple": "1",
+        "payments": [
+          1,
+          3
+        ],
+        "custom": false,
+        "parent": null
+      },
+      "11": {
+        "id": 11,
+        "char_name": "P",
+        "length": "120",
+        "width": "80",
+        "height": "200",
+        "weight": "600",
+        "require_items": "1",
+        "status": "1",
+        "created_at": "2021-12-26T15:24:53.000000Z",
+        "updated_at": "2022-05-31T03:56:03.000000Z",
+        "deleted_at": null,
+        "name": {
+          "en": "Pallet",
+          "tr": "Palet",
+          "ar": "\u0628\u0627\u0644\u064a\u062a",
+          "fr": "Palette",
+          "nl": "Palet"
+        },
+        "text": {
+          "en": null
+        },
+        "icon": "<i class=\"fas fa-truck-loading\"><\/i>",
+        "index": "3",
+        "length_mlt": false,
+        "width_mlt": false,
+        "height_mlt": false,
+        "weight_mlt": false,
+        "parent_id": "0",
+        "multiple": "1",
+        "payments": [
+          1,
+          3,
+          4
+        ],
+        "custom": false,
+        "parent": null
+      },
+      "13": {
+        "id": 13,
+        "char_name": "C",
+        "length": "1219",
+        "width": "244",
+        "height": "259",
+        "weight": "26000",
+        "require_items": "1",
+        "status": "1",
+        "created_at": "2021-12-30T14:03:45.000000Z",
+        "updated_at": "2022-05-31T03:56:22.000000Z",
+        "deleted_at": null,
+        "name": {
+          "en": "Container",
+          "ar": "\u062d\u0627\u0648\u064a\u0629 \u0634\u062d\u0646",
+          "tr": "Konteyner",
+          "fr": "Containers",
+          "nl": "Container"
+        },
+        "text": {
+          "en": null
+        },
+        "icon": "<i class=\"fa fa-boxes\"><\/i>",
+        "index": "7",
+        "length_mlt": false,
+        "width_mlt": false,
+        "height_mlt": false,
+        "weight_mlt": false,
+        "parent_id": "0",
+        "multiple": "1",
+        "payments": [
+          1,
+          3,
+          4
+        ],
+        "custom": false,
+        "parent": null
+      },
+      "14": {
+        "id": 14,
+        "char_name": "T",
+        "length": "1360",
+        "width": "250",
+        "height": "250",
+        "weight": "22000",
+        "require_items": "1",
+        "status": "1",
+        "created_at": "2021-12-30T14:05:31.000000Z",
+        "updated_at": "2022-05-31T03:56:24.000000Z",
+        "deleted_at": null,
+        "name": {
+          "en": "Truck",
+          "ar": "\u0634\u0627\u062d\u0646\u0629",
+          "de": "Vrachtauto",
+          "nl": "Vrachtauto",
+          "fr": "Camion",
+          "tr": "kamyon"
+        },
+        "text": {
+          "en": null
+        },
+        "icon": "<i class=\"fas fa-truck-moving\"><\/i>",
+        "index": "6",
+        "length_mlt": false,
+        "width_mlt": false,
+        "height_mlt": false,
+        "weight_mlt": false,
+        "parent_id": "0",
+        "multiple": "1",
+        "payments": [
+          1,
+          3,
+          4
+        ],
+        "custom": false,
+        "parent": null
+      },
+      "15": {
+        "id": 15,
+        "char_name": "F",
+        "length": "0",
+        "width": "0",
+        "height": "0",
+        "weight": "0",
+        "require_items": "1",
+        "status": "1",
+        "created_at": "2021-12-30T14:07:00.000000Z",
+        "updated_at": "2022-05-31T03:56:29.000000Z",
+        "deleted_at": null,
+        "name": {
+          "en": "Flight",
+          "tr": "U\u00e7u\u015f",
+          "ar": "\u0637\u064a\u0631\u0627\u0646",
+          "fr": "Vol",
+          "nl": "Vlucht"
+        },
+        "text": {
+          "en": null
+        },
+        "icon": "<i class=\"fas fa-plane-departure\"><\/i>",
+        "index": "9",
+        "length_mlt": false,
+        "width_mlt": false,
+        "height_mlt": false,
+        "weight_mlt": false,
+        "parent_id": "0",
+        "multiple": "1",
+        "payments": [
+          1,
+          3,
+          4
+        ],
+        "custom": false,
+        "parent": null
+      },
+      "16": {
+        "id": 16,
+        "char_name": "CBM",
+        "length": "0",
+        "width": "0",
+        "height": "0",
+        "weight": "-1",
+        "require_items": "1",
+        "status": "1",
+        "created_at": "2022-01-13T21:20:43.000000Z",
+        "updated_at": "2022-05-31T20:03:42.000000Z",
+        "deleted_at": null,
+        "name": {
+          "en": "CBM",
+          "ar": "\u0645\u062a\u0631 \u0645\u0643\u0639\u0628",
+          "tr": "Metrek\u00fcp",
+          "fr": "M\u00e8tres cubes",
+          "nl": "Kubieke meter"
+        },
+        "text": {
+          "en": "CBM",
+          "ar": "CBM"
+        },
+        "icon": "<i class=\"fas fa-expand-arrows-alt\"><\/i>",
+        "index": "4",
+        "length_mlt": true,
+        "width_mlt": true,
+        "height_mlt": true,
+        "weight_mlt": false,
+        "parent_id": "0",
+        "multiple": "0",
+        "payments": [
+          1,
+          3,
+          4
+        ],
+        "custom": false,
+        "parent": null
+      },
+      "17": {
+        "id": 17,
+        "char_name": "KG",
+        "length": "0",
+        "width": "0",
+        "height": "0",
+        "weight": "-1",
+        "require_items": "1",
+        "status": "1",
+        "created_at": "2022-01-13T21:22:34.000000Z",
+        "updated_at": "2022-05-31T20:04:18.000000Z",
+        "deleted_at": null,
+        "name": {
+          "en": "KG",
+          "ar": "\u0643\u063a",
+          "tr": "KG",
+          "fr": "KG",
+          "nl": "KG"
+        },
+        "text": {
+          "en": "KG",
+          "ar": "KG"
+        },
+        "icon": "<i class=\"fas fa-weight\"><\/i>",
+        "index": "5",
+        "length_mlt": false,
+        "width_mlt": false,
+        "height_mlt": false,
+        "weight_mlt": false,
+        "parent_id": "0",
+        "multiple": "0",
+        "payments": [
+          1,
+          3,
+          4
+        ],
+        "custom": false,
+        "parent": null
+      },
+      "18": {
+        "id": 18,
+        "char_name": "FR",
+        "length": "-1",
+        "width": "-1",
+        "height": "-1",
+        "weight": "-1",
+        "require_items": "1",
+        "status": "1",
+        "created_at": "2022-01-13T21:23:31.000000Z",
+        "updated_at": "2022-05-31T03:56:59.000000Z",
+        "deleted_at": null,
+        "name": {
+          "en": "Furniture",
+          "tr": "Mobilya",
+          "ar": "\u0623\u062b\u0627\u062b",
+          "fr": "Meubles",
+          "nl": "Meubelen"
+        },
+        "text": {
+          "en": "Furniture",
+          "ar": "Furniture"
+        },
+        "icon": "<i class=\"fas fa-couch\"><\/i>",
+        "index": "5",
+        "length_mlt": false,
+        "width_mlt": false,
+        "height_mlt": false,
+        "weight_mlt": false,
+        "parent_id": "0",
+        "multiple": "1",
+        "payments": [
+          1,
+          3,
+          4
+        ],
+        "custom": false,
+        "parent": null
+      },
+      "19": {
+        "id": 19,
+        "char_name": "SB",
+        "length": "30",
+        "width": "30",
+        "height": "40",
+        "weight": "5",
+        "require_items": "0",
+        "status": "1",
+        "created_at": "2022-03-13T08:29:45.000000Z",
+        "updated_at": "2022-05-31T03:57:36.000000Z",
+        "deleted_at": null,
+        "name": {
+          "en": "Small Box",
+          "ar": "\u0635\u0646\u062f\u0648\u0642 \u0635\u063a\u064a\u0631"
+        },
+        "text": {
+          "en": "from 1 kg to 5kg",
+          "ar": "\u0645\u0646 1 \u0643\u064a\u0644\u0648\u062c\u0631\u0627\u0645 \u0644 10 \u0643\u064a\u0644\u0648\u062c\u0631\u0627\u0645"
+        },
+        "icon": "<i class=\"fas fa-box\"><\/i>",
+        "index": "1",
+        "length_mlt": false,
+        "width_mlt": false,
+        "height_mlt": false,
+        "weight_mlt": false,
+        "parent_id": "10",
+        "multiple": "1",
+        "payments": [
+          1,
+          3
+        ],
+        "custom": false,
+        "parent": {
+          "id": 10,
+          "char_name": "BOX",
+          "length": "20",
+          "width": "50",
+          "height": "20",
+          "weight": "30",
+          "require_items": "1",
+          "status": "1",
+          "created_at": "2021-12-30T13:56:52.000000Z",
+          "updated_at": "2022-05-31T03:57:48.000000Z",
+          "deleted_at": null,
+          "name": {
+            "en": "Box Carton",
+            "tr": "Koli",
+            "ar": "\u0635\u0646\u062f\u0648\u0642",
+            "fr": "Bo\u00eete",
+            "nl": "Doos"
+          },
+          "text": {
+            "en": null
+          },
+          "icon": "<i class=\"fas fa-box\"><\/i>",
+          "index": "0",
+          "length_mlt": false,
+          "width_mlt": false,
+          "height_mlt": false,
+          "weight_mlt": false,
+          "parent_id": "0",
+          "multiple": "1",
+          "payments": [
+            1,
+            3
+          ],
+          "custom": false,
+          "parent": null
+        }
+      },
+      "20": {
+        "id": 20,
+        "char_name": "MB",
+        "length": "40",
+        "width": "40",
+        "height": "50",
+        "weight": "15",
+        "require_items": "0",
+        "status": "1",
+        "created_at": "2022-03-14T15:18:09.000000Z",
+        "updated_at": "2022-05-31T03:57:12.000000Z",
+        "deleted_at": null,
+        "name": {
+          "en": "Medium Box",
+          "ar": "\u0635\u0646\u062f\u0648\u0642 \u0648\u0633\u0637"
+        },
+        "text": {
+          "en": "from 5 kg to 15 kg",
+          "ar": "\u0645\u0646 5 \u0643\u064a\u0644\u0648\u062c\u0631\u0627\u0645 \u0644 15 \u0643\u064a\u0644\u0648\u062c\u0631\u0627\u0645"
+        },
+        "icon": "<i class=\"fas fa-box\"><\/i>",
+        "index": "2",
+        "length_mlt": false,
+        "width_mlt": false,
+        "height_mlt": false,
+        "weight_mlt": false,
+        "parent_id": "10",
+        "multiple": "1",
+        "payments": [
+          1,
+          3
+        ],
+        "custom": false,
+        "parent": {
+          "id": 10,
+          "char_name": "BOX",
+          "length": "20",
+          "width": "50",
+          "height": "20",
+          "weight": "30",
+          "require_items": "1",
+          "status": "1",
+          "created_at": "2021-12-30T13:56:52.000000Z",
+          "updated_at": "2022-05-31T03:57:48.000000Z",
+          "deleted_at": null,
+          "name": {
+            "en": "Box Carton",
+            "tr": "Koli",
+            "ar": "\u0635\u0646\u062f\u0648\u0642",
+            "fr": "Bo\u00eete",
+            "nl": "Doos"
+          },
+          "text": {
+            "en": null
+          },
+          "icon": "<i class=\"fas fa-box\"><\/i>",
+          "index": "0",
+          "length_mlt": false,
+          "width_mlt": false,
+          "height_mlt": false,
+          "weight_mlt": false,
+          "parent_id": "0",
+          "multiple": "1",
+          "payments": [
+            1,
+            3
+          ],
+          "custom": false,
+          "parent": null
+        }
+      },
+      "21": {
+        "id": 21,
+        "char_name": "LB",
+        "length": "50",
+        "width": "50",
+        "height": "60",
+        "weight": "30",
+        "require_items": "0",
+        "status": "1",
+        "created_at": "2022-03-14T15:19:51.000000Z",
+        "updated_at": "2022-05-31T03:57:09.000000Z",
+        "deleted_at": null,
+        "name": {
+          "en": "Large Box",
+          "ar": "\u0635\u0646\u062f\u0648\u0642 \u0643\u0628\u064a\u0631"
+        },
+        "text": {
+          "en": "from 15 kg to 30 kg",
+          "ar": "\u0645\u0646 15 \u0643\u064a\u0644\u0648\u062c\u0631\u0627\u0645 \u0644 30 \u0643\u064a\u0644\u0648\u062c\u0631\u0627\u0645"
+        },
+        "icon": "<i class=\"fas fa-box\"><\/i>",
+        "index": "3",
+        "length_mlt": false,
+        "width_mlt": false,
+        "height_mlt": false,
+        "weight_mlt": false,
+        "parent_id": "10",
+        "multiple": "1",
+        "payments": [
+          1,
+          3
+        ],
+        "custom": false,
+        "parent": {
+          "id": 10,
+          "char_name": "BOX",
+          "length": "20",
+          "width": "50",
+          "height": "20",
+          "weight": "30",
+          "require_items": "1",
+          "status": "1",
+          "created_at": "2021-12-30T13:56:52.000000Z",
+          "updated_at": "2022-05-31T03:57:48.000000Z",
+          "deleted_at": null,
+          "name": {
+            "en": "Box Carton",
+            "tr": "Koli",
+            "ar": "\u0635\u0646\u062f\u0648\u0642",
+            "fr": "Bo\u00eete",
+            "nl": "Doos"
+          },
+          "text": {
+            "en": null
+          },
+          "icon": "<i class=\"fas fa-box\"><\/i>",
+          "index": "0",
+          "length_mlt": false,
+          "width_mlt": false,
+          "height_mlt": false,
+          "weight_mlt": false,
+          "parent_id": "0",
+          "multiple": "1",
+          "payments": [
+            1,
+            3
+          ],
+          "custom": false,
+          "parent": null
+        }
+      }
+    },
+    "data": {
+      "9": [
+        {
+          "count": "1",
+          "month": "5"
+        }
+      ],
+      "10": [
+        {
+          "count": "2",
+          "month": "5"
+        },
+        {
+          "count": "8",
+          "month": "6"
+        }
+      ],
+      "11": [
+        {
+          "count": "24",
+          "month": "5"
+        },
+        {
+          "count": "8",
+          "month": "6"
+        }
+      ],
+      "14": [
+        {
+          "count": "7",
+          "month": "5"
+        },
+        {
+          "count": "6",
+          "month": "6"
+        }
+      ],
+      "16": [
+        {
+          "count": "3",
+          "month": "5"
+        },
+        {
+          "count": "1",
+          "month": "6"
+        }
+      ],
+      "17": [
+        {
+          "count": "6",
+          "month": "6"
+        }
+      ],
+      "18": [
+        {
+          "count": "10",
+          "month": "5"
+        },
+        {
+          "count": "2",
+          "month": "6"
+        }
+      ],
+      "19": [
+        {
+          "count": "2",
+          "month": "5"
+        }
+      ],
+      "21": [
+        {
+          "count": "4",
+          "month": "5"
+        },
+        {
+          "count": "5",
+          "month": "6"
+        }
+      ]
+    }
+  }
+}

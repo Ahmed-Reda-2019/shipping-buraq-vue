@@ -1,0 +1,222 @@
+{
+  "twilio_from": {
+    "id": 13,
+    "name": "twilio_from",
+    "title": "",
+    "value": "+18597246131",
+    "type": "text",
+    "options": null,
+    "class": "Setting",
+    "trans": {
+      "title": {
+        "ar": "twilio_from"
+      }
+    }
+  },
+  "twilio_token": {
+    "id": 12,
+    "name": "twilio_token",
+    "title": "",
+    "value": "c935bf16d6c43988273c6cad7af4d872",
+    "type": "text",
+    "options": null,
+    "class": "Setting",
+    "trans": {
+      "title": {
+        "ar": "TWILIO_AUTH_TOKEN"
+      }
+    }
+  },
+  "twilio_sid": {
+    "id": 11,
+    "name": "twilio_sid",
+    "title": "",
+    "value": "AC210fba33fcc1d6ecf9c6c5f82ad2a198",
+    "type": "text",
+    "options": null,
+    "class": "Setting",
+    "trans": {
+      "title": {
+        "ar": "twilio_sid"
+      }
+    }
+  },
+  "logo_print": {
+    "id": 10,
+    "name": "logo_print",
+    "title": "",
+    "value": "/media/logos/logo.png",
+    "type": "file",
+    "options": null,
+    "class": "Setting",
+    "trans": {
+      "title": {
+        "ar": "logo-print"
+      }
+    }
+  },
+  "chat_token": {
+    "id": 9,
+    "name": "chat_token",
+    "title": "",
+    "value": "1fdc4042-feb7-4190-87db-cd605aa44803",
+    "type": "text",
+    "options": null,
+    "class": "Setting",
+    "trans": {
+      "title": {
+        "ar": "chat_token"
+      }
+    }
+  },
+  "site_main_image": {
+    "id": 8,
+    "name": "site_main_image",
+    "title": "",
+    "value": "/media/logos/logo.png",
+    "type": "file",
+    "options": null,
+    "class": "Setting",
+    "trans": {
+      "title": {
+        "ar": "main-logo"
+      }
+    }
+  },
+  "head_logo_colored": {
+    "id": 7,
+    "name": "head_logo_colored",
+    "title": "",
+    "value": "/media/logos/logo.png",
+    "type": "file",
+    "options": null,
+    "class": "Setting",
+    "trans": {
+      "title": []
+    }
+  },
+  "head_logo_white": {
+    "id": 6,
+    "name": "head_logo_white",
+    "title": "hh",
+    "value": "/media/logos/logo.png",
+    "type": "file",
+    "options": null,
+    "class": "Setting",
+    "trans": {
+      "title": {
+        "ar": "wight logo",
+        "en": "hh"
+      }
+    }
+  },
+  "appTimezone": {
+    "id": 2,
+    "name": "appTimezone",
+    "title": "AFRICA-CAIRO",
+    "value": "AFRICA\/CAIRO",
+    "type": "null",
+    "options": null,
+    "class": "Setting",
+    "trans": {
+      "title": {
+        "en": "AFRICA-CAIRO"
+      }
+    }
+  },
+  "brand": {
+    "id": 1,
+    "name": "brand",
+    "title": "Company trust",
+    "value": "\u0645\u0648\u0644\u0631 \u062a\u0631\u0627\u0633\u062a \u0644\u0648\u062c\u0633\u062a\u064a\u0643",
+    "type": "text",
+    "options": null,
+    "class": "Setting",
+    "trans": {
+      "title": {
+        "ar": "logistic Company",
+        "en": "logistic Company",
+        "de": "logistic Company",
+        "tr": "logistic Company",
+        "fr": "logistic Company",
+        "nl": "logistic Company"
+      }
+    }
+  },
+  "site_text_down": {
+    "id": 1,
+    "name": "site_text_down",
+    "title": "",
+    "value": "",
+    "type": "text",
+    "options": null,
+    "class": "Setting",
+    "trans": {
+      "title": {
+        "ar": "logistic Company",
+        "en": "logistic Company",
+        "de": "",
+        "tr": "",
+        "fr": "",
+        "nl": ""
+      }
+    }
+  },
+  "chat_days_word": {
+    "id": 1,
+    "name": "chat_days_word",
+    "title": "",
+    "value": "",
+    "type": "text",
+    "options": null,
+    "class": "Setting",
+    "trans": {
+      "title": {
+        "ar": " from A ",
+        "en": "",
+        "de": "",
+        "tr": "",
+        "fr": "",
+        "nl": ""
+      }
+    }
+  },
+  "chat_time_word": {
+    "id": 1,
+    "name": "chat_time_word",
+    "title": "",
+    "value": "",
+    "type": "text",
+    "options": null,
+    "class": "Setting",
+    "trans": {
+      "title": {
+        "ar": "",
+        "en": "",
+        "de": "",
+        "tr": "",
+        "fr": "",
+        "nl": ""
+      }
+    }
+  },
+  "chat_number": {
+    "id": 1,
+    "name": "chat_number",
+    "title": "",
+    "value": "123456",
+    "type": "text",
+    "options": null,
+    "class": "Setting",
+    "trans": {
+      "title": {
+        "ar": "",
+        "en": "",
+        "de": "",
+        "tr": "",
+        "fr": "",
+        "nl": ""
+      }
+    }
+  }
+}

@@ -1,0 +1,147 @@
+<template>
+  <div class="card" id="kt_chat_messenger">
+    <!--begin::Card header-->
+    <div class="card-header" id="kt_chat_messenger_header">
+      <!--begin::Title-->
+      <div class="card-title">
+        <!--begin::User-->
+        <div class="d-flex justify-content-center flex-column me-3">
+          <div class="symbol-group symbol-hover">
+            <div
+              class="symbol symbol-35px symbol-circle"
+              v-for="user in deal.users"
+              :key="user.id"
+            >
+              <img :alt="user.name" :src="user.imageurl" />
+            </div>
+
+            <span class="symbol mx-2 fw-bolder text-success">
+              {{ deal.name }}
+            </span>
+          </div>
+        </div>
+        <!--end::User-->
+      </div>
+      <!--end::Title-->
+
+      <!--begin::Card toolbar-->
+      <div class="card-toolbar">
+        <!--begin::Menu-->
+        <!--              <button-->
+        <!--                  class="btn btn-sm btn-icon btn-active-light-primary d-none "-->
+        <!--                  @click="openclientModelEdit"-->
+        <!--                  data-bs-target="#kt_modal_form_deal"-->
+        <!--                  data-bs-toggle="modal"-->
+
+        <!--              >-->
+        <!--                <i class="icon-xl fas far fa-edit"></i>-->
+        <!--              </button>-->
+
+        <div class="me-n3" v-if="deal.end_at == 0">
+          <button
+            class="btn btn-sm btn-icon btn-active-light-danger"
+            @click="closeDeal"
+          >
+            <i class="fa fa-window-close fs-2" aria-hidden="true"></i>
+          </button>
+        </div>
+        <!--end::Menu-->
+      </div>
+      <!--end::Card toolbar-->
+    </div>
+    <!--end::Card header-->
+
+    <!--begin::Card body-->
+    <div class="card-body" id="kt_chat_messenger_body">
+      <!--begin::Messages-->
+      <div
+        class="scroll-y me-n5 pe-5 h-500px"
+        ref="messagesRef"
+        data-kt-element="messages"
+        data-kt-scroll="true"
+        data-kt-scroll-activate="{default: false, lg: true}"
+        data-kt-scroll-max-height="auto"
+        data-kt-scroll-dependencies="#kt_header, #kt_toolbar, #kt_footer, #kt_chat_messenger_header, #kt_chat_messenger_footer"
+        data-kt-scroll-wrappers="#kt_content, #kt_chat_messenger_body"
+        data-kt-scroll-offset="-2px"
+      >
+        <template v-for="(item, index) in deal.messages" :key="index">
+          <MessageIn
+            ref="messagesInRef"
+            v-if="item.user_id == user_id"
+            :name="item.user"
+            :image="item.image"
+            :time="formatDate(item.created_at)"
+            :text="item.body"
+          ></MessageIn>
+          <MessageOut
+            ref="messagesOutRef"
+            v-if="item.user_id != user_id"
+            :name="item.user"
+            :image="item.image"
+            :time="formatDate(item.created_at)"
+            :text="item.body"
+          ></MessageOut>
+        </template>
+      </div>
+      <!--end::Messages-->
+    </div>
+    <!--end::Card body-->
+
+    <!--begin::Card footer-->
+    <div
+      class="card-footer pt-4"
+      id="kt_chat_messenger_footer"
+      v-if="deal.status == 1"
+    >
+      <!--begin::Input-->
+      <input
+        v-model="messageForm.body"
+        @keydown.enter="addNewMessage"
+        class="form-control form-control-flush mb-3"
+        data-kt-element="input"
+        :placeholder="$t('Type a message')"
+      />
+      <!--end::Input-->
+
+      <!--begin:Toolbar-->
+      <div class="d-flex flex-stack">
+        <!--begin::Actions-->
+        <div class="d-flex align-items-center me-2 d-none">
+          <label
+            for="addFile"
+            class="btn btn-sm btn-icon btn-active-light-primary me-1"
+          >
+            <i class="bi bi-upload fs-3"></i>
+          </label>
+          <input type="file" class="d-none" id="addFile" />
+        </div>
+        <!--end::Actions-->
+
+        <!--begin::Send-->
+        <button
+          @click="addNewMessage"
+          class="btn btn-primary"
+          type="button"
+          data-kt-element="send"
+        >
+          Send
+        </button>
+        <!--end::Send-->
+      </div>
+      <!--end::Toolbar-->
+    </div>
+    <!--end::Card footer-->
+  </div>
+</template>
+
+<script>
+export default {
+  name: "chat",
+  data() {
+    return {
+      messageForm: {},
+    };
+  },
+};
+</script>

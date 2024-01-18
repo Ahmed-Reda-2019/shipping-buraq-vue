@@ -1,0 +1,74 @@
+export default defineComponent({
+name: "branches-listing",
+components: {
+Datatable,
+},
+data(){
+return {
+tableHeader:,
+checkedbranches: [],
+tableData: ref<Array<IBranch>>([]),
+branches:[],
+initbranches:ref<Array<IBranch>>([])
+  }
+  },
+  async mounted(){
+  setCurrentPageBreadcrumbs("Branches Listing", ["Apps", "Branches"]);
+  let res = await ApiService.get('branches/get').then(  (data) => {
+  // this.branches = data.data;
+  // this.tableData = data.data;
+  for (let i = 0; i < data.data.length; i++) {
+  this.tableData.value.push(data.data[i]);
+  }
+  });
+
+
+  this.tableData = this.branches
+  // this.tableData = this.branches;
+  this.initbranches.splice(0, this.tableData.length, ...this.tableData);
+
+  MenuComponent.reinitialization();
+
+  },
+  methods: {
+
+  deleteFewbranches (){
+  // checkedbranches.value.forEach((item) => {
+  //   deletebranche(item);
+  // });
+  // checkedbranches.value.length = 0;
+  },
+  deletebranche(id) {
+  for (let i = 0; i < this.tableData.length; i++) {
+  // if (tableData[i].id === id) {
+  //   tableData.splice(i, 1);
+  // }
+  }
+  },
+  searchItems(){
+  // this.tableData.splice(0, this.tableData.length, ...this.initbranches);
+  // if (search.value !== "") {
+  //   let results = [];
+  //   for (let j = 0; j < tableData.length; j++) {
+  //     if (searchingFunc(tableData[j], search.value)) {
+  //       results.push(tableData[j]);
+  //     }
+  //   }
+  //   tableData.splice(0, tableData.length, ...results);
+  // }
+  },
+
+  searchingFunc(obj, value){
+  for (let key in obj) {
+  if (!Number.isInteger(obj[key]) && !(typeof obj[key] === "object")) {
+  if (obj[key].indexOf(value) != -1) {
+  return true;
+  }
+  }
+  }
+  return false;
+  }
+
+  }
+
+  });

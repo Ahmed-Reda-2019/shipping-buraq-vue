@@ -1,0 +1,227 @@
+@media print {
+    .col-print-1 {
+        width: 8% !important;
+        float: left;
+    }
+
+    .col-print-2 {
+        width: 16% !important;
+        float: left;
+    }
+
+    .col-print-3 {
+        width: 25% !important;
+        float: left;
+    }
+
+    .col-print-4 {
+        width: 33% !important;
+        float: left;
+    }
+
+    .col-print-5 {
+        width: 42% !important;
+        float: left;
+    }
+
+    .col-print-6 {
+        width: 50% !important;
+        float: left;
+    }
+
+    .col-print-7 {
+        width: 58% !important;
+        float: left;
+    }
+
+    .col-print-8 {
+        width: 66% !important;
+        float: left;
+    }
+
+    .col-print-9 {
+        width: 75% !important;
+        float: left;
+    }
+
+    .col-print-10 {
+        width: 83% !important;
+        float: left;
+    }
+
+    .col-print-11 {
+        width: 92% !important;
+        float: left;
+    }
+
+    .col-print-12 {
+        width: 100% !important;
+        float: left;
+    }
+    #kt_toolbar , #kt_footer , #kt_header , .d-print-none {    display: none;}
+}
+.hide{
+    display: none;
+}
+.service-icon i {
+    font-size: 30px !important;
+}
+
+#kt_header {
+    z-index: 100;
+}
+
+.service-icon-box i {
+    font-size: xxx-large !important;
+}
+
+.select-location select {
+    font-size: 18px;
+    padding: 15px;
+}
+
+.header-fixed[data-kt-sticky-header="on"] .curr-symbol {
+    color: #000 !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .service-icon-box i {
+        font-size: x-large !important;
+    }
+}
+
+.new-service-container {
+    margin-top: 100rem;
+    display: none !important;
+}
+
+.new-service-container-app {
+    margin-top: -10rem !important;
+    display: flex !important;
+}
+
+.body-trans {
+    transition: all 1s ease;
+}
+
+#body-trans-height.body-trans-height {
+    height: 100vh !important;
+}
+
+.video-overlay {
+    position: absolute;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background-color: #00000085;
+}
+
+#signature {
+    overflow: hidden;
+}
+
+#signature canvas {
+    background-color: #f5f8fa;
+}
+
+ul.el-pager {
+    padding: 0 !important;
+}
+
+ul.el-pager li {
+    border-radius: 0.475rem !important;
+}
+
+.el-pagination .btn-next .el-icon,
+.el-pagination .btn-prev .el-icon {
+    display: unset !important;
+}
+
+.drawer-on .menu-item > a > .menu-link {
+    color: #5e6278 !important;
+    font-size: 17px;
+    padding: 0px 20px;
+    border-bottom: dashed #8080802b;
+    margin-bottom: 5px;
+}
+
+.swal2-styled.swal2-cancel {
+    margin: 0 10px;
+}
+
+.blockui-overlay {
+    z-index: 2;
+    transition: all 0.3s ease;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn.btn-primary2 {
+    color: #FFFFFF !important;
+    border-color: var(--bs-primary2) !important;
+    background-color: var(--bs-primary2) !important;
+}
+.v-toast__item .v-toast__text {
+    margin-bottom: 0px;
+}
+
+table thead {
+    border-bottom: 1px solid !important;
+}
+
+.dataTables_paginate{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+}
+.dataTables_paginate>span{
+    display: contents;
+}
+.dataTables_paginate a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.475rem;
+    height: 2.5rem;
+    min-width: 2.5rem;
+    background-color: #ffffff;
+    border: 1px solid #4f8ead;
+    padding: 2px;
+    margin-right: 2px;
+    margin-left: 2px;
+    font-weight: bolder;
+    font-size: larger;
+}
+.dataTables_paginate a.current{
+    z-index: 3;
+    color: #FFFFFF;
+    background-color: #22618f !important;
+    border-color: transparent;
+}
+
+.form-control{
+  height: 45px;
+}
+.el-input--suffix .el-input__inner{
+  display: block;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #181C32;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border: 1px solid #E4E6EF;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.475rem;
+  height: 45px;
+}
